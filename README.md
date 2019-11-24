@@ -3,6 +3,7 @@
 ## leetcode_simple刷题笔记
 - 笔记链接：[leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
 - 目前已解决题目列表：
+  - 1.两数之和
   - 7.整数反转
   - 9.回文数
   - 13.罗马数字转数字
@@ -13,3 +14,4 @@
   - 27.移除元素
   - 35.搜索插入位置
   - 38.报数
+  - 53.最大子序和
