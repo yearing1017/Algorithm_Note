@@ -2,6 +2,40 @@
 - 此文用来记录自己在leetcode上的simple题集解决方案。
 - 希望能够鞭策自己每天刷一道题，日积月累，即使是simple型。
 
+## 1. 两数之和
+
+- 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
+
+- 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
+
+  > 示例:
+  >
+  > 给定 nums = [2, 7, 11, 15], target = 9
+  >
+  > 因为 nums[0] + nums[1] = 2 + 7 = 9
+  > 所以返回 [0, 1]
+
+- **思路：两个for循环暴力**
+
+```
+int* twoSum(int* nums, int numsSize, int target) {
+  static int a[2]={0};
+  for (int i = 0; i < numsSize - 1; i++)
+  {
+    for (int j = i+1; j < numsSize; j++)
+    {
+      if (nums[i] + nums[j] == target)
+      {
+        a[0] = i;
+        a[1] = j;
+        return a;
+      }
+    }
+  }
+  return 0;
+}
+```
+
 ## 7. 整数反转
 
 - **题目描述**
@@ -614,4 +648,42 @@ class Solution {
 }
 ```
 
+### 53. 最大子序和
 
+- 给定整数数组 `nums` ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+
+  > 示例:
+  >
+  > 输入: [-2,1,-3,4,-1,2,1,-5,4],
+  > 输出: 6
+  > 解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
+
+- **解题思路：**
+  - 定义一个局部临时sum，初始赋值为0，用来存储当前的局部子序和
+  - 定义结果res，初始赋值为nums[0]
+  - 因为数组中有正负数，所以要去判断临时sum的大小
+  - 若sum>0，说明无论后面的数正负，都要加该数
+  - 但是如果当前sum<0，就要舍弃sum，因为会减小后面继续加和。
+  - 舍弃sum，就要将当前的sum赋值循环中的num，继续从此数开始加和
+
+- 代码
+
+```java
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int res = nums[0];
+        int sum = 0;
+        for(int num: nums){
+            if(sum>0){
+                sum += num;
+            }else{
+                sum = num;
+            }
+            res = Math.max(res, sum);
+        }
+        return res;
+    }
+}
+```
+
+- 更多详细解法：[最大子序和 c++实现四种解法 暴力法、动态规划、贪心法和分治法 图示讲解](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
