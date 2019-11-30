@@ -648,7 +648,7 @@ class Solution {
 }
 ```
 
-### 53. 最大子序和
+## 53. 最大子序和
 
 - 给定整数数组 `nums` ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 
@@ -687,3 +687,55 @@ class Solution {
 ```
 
 - 更多详细解法：[最大子序和 c++实现四种解法 暴力法、动态规划、贪心法和分治法 图示讲解](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
+
+## 58. 最后一个单词的长度
+
+- 给定一个仅包含大小写字母和空格 ' ' 的字符串，返回其最后一个单词的长度。
+- 如果不存在最后一个单词，请返回 0 。
+- 说明：一个单词是指由字母组成，但不包含任何空格的字符串。
+
+> 示例:
+>
+> 输入: "Hello World"
+> 输出: 5
+
+- 解法一思路：
+  - 从字符串末尾开始向前遍历，其中主要有两种情况：
+  - **第一种情况**，以字符串"Hello World"为例，从后向前遍历直到遍历到头或者遇到空格为止，即为最后一个单词"World"的长度5；
+  - **第二种情况**，以字符串"Hello World "为例，需要先将末尾的空格过滤掉，再进行第一种情况的操作，即认为最后一个单词为"World"，长度为5；
+  - **所以完整过程为先从后过滤掉空格找到单词尾部，再从尾部向前遍历，找到单词头部，最后两者相减，即为单词的长度**。
+  - 时间复杂度：O(n)，n为结尾空格和结尾单词总体长度。
+
+- 代码：
+
+```java
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int end = s.length() - 1;
+        while(end >= 0 && s.charAt(end) == ' ') end--;
+        if(end < 0) return 0;
+        int start = end;
+        while(start >= 0 && s.charAt(start) != ' ') start--;
+        return end - start;
+    }
+}
+```
+
+- 解法二：
+  - 首先使用`strim`函数去除首尾空格
+  - 再使用Java的寻找最后一个空格位置函数，末尾-空格位置即单词长度
+- 代码：
+
+```java
+class Solution {    
+    public  int lengthOfLastWord(String s) {
+    	//空串
+    	s=s.trim();
+    	if(s.length()==0){
+    		return 0;
+    	}
+    	int lastEmptyIndex =s.lastIndexOf(" ");
+        return s.length()-1-lastEmptyIndex;
+    }
+}
+```
