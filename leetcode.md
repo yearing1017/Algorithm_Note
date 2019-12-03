@@ -785,3 +785,47 @@ class Solution {
 }
 ```
 
+## 67. 二进制求和
+
+- 给定两个二进制字符串，返回他们的和（用二进制表示）。
+- 输入为**非空**字符串且只包含数字 `1` 和 `0`。
+
+> 示例 1:
+>
+> 输入: a = "11", b = "1"
+> 输出: "100"
+> 示例 2:
+>
+> 输入: a = "1010", b = "1011"
+> 输出: "10101"
+
+- **思路**
+  - 利用enumerate枚举方法可以得到索引和数字，算出结果
+  - 相加求和
+  - 再求出二进制数
+
+- **代码**
+
+```python
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        if a==b=='0':
+            return "0"
+        num1 = num2 = 0;
+        # enumerate方法返回索引+数字的二元组
+        for i,x in enumerate(a):
+            num1 += int(x)*(2**(len(a)-i-1))
+        for i,x in enumerate(b):
+            num2 += int(x)*(2**(len(b)-i-1))
+        num = num1 + num2
+        res = ''
+        while num > 1:
+            num_temp = num%2
+            res += str(num_temp)
+            num = num//2
+        res+='1' 
+        return res[::-1] # 倒序遍历字符串
+```
+
+
+
