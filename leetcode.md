@@ -826,6 +826,46 @@ class Solution:
         res+='1' 
         return res[::-1] # 倒序遍历字符串
 ```
+## 69. x的平方根
 
+- 实现 int sqrt(int x) 函数。
+- 计算并返回 x 的平方根，其中 x 是非负整数。
+- 由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
 
+> 示例 1:
+>
+> 输入: 4
+> 输出: 2
+> 示例 2:
+>
+> 输入: 8
+> 输出: 2
+> 说明: 8 的平方根是 2.82842..., 
+> 由于返回类型是整数，小数部分将被舍去。
 
+- **解题思路：**
+  - 采用二分法无限逼近正确值
+  - 当max和min差1以上的情况下，m为中值
+  - 根据x/m大于m还是小于等于m，来挪动指针max和min
+- **代码：**
+
+```java
+class Solution {
+    public int mySqrt(int x) {
+        if(x==0||x==1){
+            return x;
+        }
+        int min = 0;
+        int max = x;
+        while(max - min >1){
+            int m = (min+max)/2;
+            if(x/m<m){
+                max = m; //x/m比m小，说明除的m大了点，去左半部分逼近m
+            }else{
+                min = m;//x/m比m大,或者等于m，说明除的m小了点，去右半部分继续逼近m
+            }
+        }
+        return min;
+    }
+}
+```
