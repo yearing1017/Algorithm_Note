@@ -1,6 +1,6 @@
 # Algorithm_Note
 ⏰记录刷题&amp;算法笔记
-## 💡 leetcode_simple刷题笔记
+## 💡 Leetcode_simple刷题笔记
 - 笔记链接：[leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
 - 目前已解决题目列表：
   - 1.两数之和
@@ -29,3 +29,7 @@
   - [快速排序](https://yearing1017.site/2019/05/31/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/)
   - [希尔排序](https://yearing1017.site/2019/05/31/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/)
   - [冒泡排序](https://yearing1017.site/2019/05/29/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/)
+  
+## 💡 数据结构算法笔记
+- 本栏放一些平时积累的数据结构算法
+  - [Dijkstra算法笔记](https://yearing1017.site/2019/10/29/Dijkstra%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0/)
