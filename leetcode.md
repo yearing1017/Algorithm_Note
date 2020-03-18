@@ -922,7 +922,7 @@ class Solution {
 
 - 注：**使用递归，反馈超时**
 
-## 83. 删除排序链表中的重复元素
+### 83. 删除排序链表中的重复元素
 
 - 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
 
@@ -969,7 +969,7 @@ public:
 };
 ```
 
-## 88. 合并两个有序数组
+### 88. 合并两个有序数组
 
 - 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
 
@@ -1009,5 +1009,76 @@ class Solution {
         System.arraycopy(nums2, 0, nums1, 0, len2 + 1);
     }
 }
+```
+
+### 100. 相同的树
+
+- 给定两个二叉树，编写一个函数来检验它们是否相同。
+- 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
+
+> **示例 1:**
+>
+> ```
+> 输入:       1         1
+>           / \       / \
+>          2   3     2   3
+> 
+>         [1,2,3],   [1,2,3]
+> 
+> 输出: true
+> ```
+>
+> **示例 2:**
+>
+> ```
+> 输入:      1          1
+>           /           \
+>          2             2
+> 
+>         [1,2],     [1,null,2]
+> 
+> 输出: false
+> ```
+>
+> **示例 3:**
+>
+> ```
+> 输入:       1         1
+>           / \       / \
+>          2   1     1   2
+> 
+>         [1,2,1],   [1,1,2]
+> 
+> 输出: false
+> ```
+
+- **思路：**
+  - 判断根节点的情况
+  - 递归
+- **代码：**
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+        # p,q 都为none
+        if not p and not q:
+            return True
+        # 一个为none
+        if not p or not q:
+            return False
+        # 都不为none
+        if p and q:
+            if p.val == q.val:
+                # 递归判断子树
+                return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+            else:
+                return False
 ```
 
