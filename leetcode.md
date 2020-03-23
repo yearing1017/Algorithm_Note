@@ -1082,3 +1082,44 @@ class Solution:
                 return False
 ```
 
+## 101. 对称二叉树
+
+- 给定一个二叉树，检查它是否是镜像对称的。
+- 例如，二叉树 `[1,2,2,3,4,4,3]` 是对称的。
+
+> ```
+>     1
+>    / \
+>   2   2
+>  / \ / \
+> 3  4 4  3
+> ```
+
+- 但是下面这个 `[1,2,2,null,3,null,3]` 则不是镜像对称的:
+
+> ```
+>     1
+>    / \
+>   2   2
+>    \   \
+>    3    3
+> ```
+
+- **思路：单独写一个函数去递归，也可在原函数中递归**
+- **代码：**
+
+```python
+class Solution:
+    def dfs(self, left: TreeNode, right: TreeNode):
+        if (left == None and right == None):
+            return True
+        if (left == None or right == None):
+            return False
+        if left.val!=right.val:
+            return False
+        return self.dfs(left.left,right.right) and self.dfs(left.right,right.left)
+    def isSymmetric(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+        return self.dfs(root.left, root.right)
+```
