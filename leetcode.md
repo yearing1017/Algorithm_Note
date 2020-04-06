@@ -1172,3 +1172,50 @@ class Solution:
         return queue 
 
 ```
+
+## 108. 将有序数组转换为二叉搜索树
+
+- 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
+- 本题中，一个高度平衡二叉树是指一个二叉树每个节点 的左右两个子树的高度差的绝对值不超过 1。
+- **思路**
+  - 平衡二叉搜索树需要保证俩点：
+    - 根节点大于左子树任意节点，小于右子树任意节点
+    - 左右子数高度相差不超过 1
+  - 由以上性质，一个可行的递归条件可以得出：
+    - 每次返回的根节点处于数组中间，以其左右半数组分别递归构造左右子树
+    - 那么就意味着左子小于根，右子大于根，且所有节点左右子树节点数相差不超过 1 （由于递归的构树方式相同，所有节点都满足高度平衡）
+- **代码**
+
+```python
+class Solution:
+    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
+        if nums:
+            loc = len(nums) // 2  # 返回整数
+            root = TreeNode(nums[loc])
+            root.left = self.sortedArrayToBST(nums[:loc])
+            root.right = self.sortedArrayToBST(nums[loc+1:])
+            return root
+```
+
+## 110. 平衡二叉树
+
+- 给定一个二叉树，判断它是否是高度平衡的二叉树。
+- 本题中，一棵高度平衡二叉树定义为：
+
+> 一个二叉树*每个节点* 的左右两个子树的高度差的绝对值不超过1。
+
+- 构造一个获取当前节点最大深度的方法`depth(root)` ，通过比较此子树的左右子树的最大高度差`abs(depth(root.left) - depth(root.right))`，来判断此子树是否是二叉平衡树。若树的所有子树都平衡时，此树才平衡。
+
+- **代码**
+
+```python
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+        if not root: return True
+        return abs(self.depth(root.left) - self.depth(root.right)) <= 1 and \
+            self.isBalanced(root.left) and self.isBalanced(root.right)
+
+    def depth(self, root):
+        if not root: return 0
+        return max(self.depth(root.left), self.depth(root.right)) + 1
+```
