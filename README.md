@@ -39,4 +39,4 @@
   
 ## 💡 算法知识积累
 - 学习算法必读系列
-  - [学习算法和刷题的框架思维]()
+  - [学习算法和刷题的框架思维](https://github.com/yearing1017/Algorithm_Note/blob/master/fuck-algorithm/学习算法和数据结构的高效方法.md)
