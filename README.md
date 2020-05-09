@@ -1,5 +1,5 @@
 # Algorithm_Note
-⏰记录刷题&amp;算法笔记
+⏰记录刷题算法笔记
 ## 💡 Leetcode_simple刷题笔记
 - 笔记链接：[leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
 - 目前已解决题目列表：
