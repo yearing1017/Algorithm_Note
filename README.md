@@ -3,32 +3,38 @@
 ## 💡 Leetcode_simple刷题笔记
 - 笔记链接：[leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
 - 目前已解决题目列表：
-  - 1.两数之和
-  - 7.整数反转
-  - 9.回文数
-  - 13.罗马数字转数字
-  - 14.最长公共前缀
-  - 20.有效的括号
-  - 21.合并两个有序链表
-  - 26.删除排序数组中的重复项
-  - 27.移除元素
-  - 35.搜索插入位置
-  - 38.报数
-  - 53.最大子序和
-  - 58.最后一个单词的长度
-  - 66.加一
-  - 67.二进制求和
-  - 69.x的平方根
-  - 70.爬楼梯
-  - 83.删除排序链表中的重复元素
-  - 88.合并两个有序数组
-  - 100.相同的树
-  - 101.对称二叉树
-  - 107.二叉树的层次遍历 II
-  - 108.将有序数组转换为二叉搜索树
-  - 110.平衡二叉树
+
+|  id  |            题目            | 语言 |                           题解链接                           |
+| :--: | :------------------------: | :--: | :----------------------------------------------------------: |
+|  1   |          两数之和          | c++  | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  7   |          整数反转          | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  9   |           回文数           | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  13  |       罗马数字转数字       | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  14  |        最长公共前缀        | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  20  |         有效的括号         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  21  |      合并两个有序链表      | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  26  |   删除排序数组中的重复项   | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  27  |          移除元素          | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  35  |        搜索插入位置        | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  38  |            报数            | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  53  |         最大子序和         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  58  |     最后一个单词的长度     | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  66  |            加一            | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  67  |         二进制求和         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  69  |         x的平方根          | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  70  |           爬楼梯           | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  83  |  删除排序链表中的重复元素  | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  88  |      合并两个有序数组      | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 100  |          相同的树          | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 101  |         对称二叉树         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 107  |    二叉树的层次遍历 II     | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 108  | 将有序数组转换为二叉搜索树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 110  |         平衡二叉树         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+
 
 ## 💡 剑指offer
+
+
 
 ## 💡 常用算法总结
 - 本项目的md文件不能正常显示公式，所以下面为blog中的笔记链接
