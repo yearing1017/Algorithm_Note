@@ -1,12 +1,12 @@
 # Algorithm_Note
 ⏰记录刷题算法笔记
 ## 💡 Leetcode_simple刷题笔记
-- 笔记链接：[leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
+- 笔记链接：[Leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
 - 目前已解决题目列表：
 
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
-|  1   |          两数之和          | c++  | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+|  1   |          两数之和          | C++  | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 |  7   |          整数反转          | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 |  9   |           回文数           | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 |  13  |       罗马数字转数字       | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
