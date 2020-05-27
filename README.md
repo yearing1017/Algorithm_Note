@@ -37,7 +37,7 @@
 
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
-| 面试题03 | 数组中重复的数字 | c++、Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9803.md) |
+| 面试题03 | 数组中重复的数字 | C++、Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9803.md) |
 | 面试题04 | 二维数组中的查找 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9804.md) |
 | 面试题05 | 二维数组中的查找 | Java、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9805.md) |
 
