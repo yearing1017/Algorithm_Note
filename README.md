@@ -57,7 +57,7 @@
 
 <a id="data-structure"></a>
 ## 〽️ 数据结构
- - [数据结构常见结构总结]()
+ - [数据结构简单总结](https://github.com/yearing1017/Algorithm_Note/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 <a id="algorithm"></a>
 ## 📝 常用算法总结
