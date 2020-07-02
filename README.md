@@ -55,6 +55,7 @@
 | 面试题09 | 用两个栈实现队列 | C++、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9809.md) |
 | 面试题10-1 | 斐波那契数列 | C++ | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-1.md) |
 | 面试题10-2 | 青蛙跳台阶 | C++ | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-2.md) |
+| 面试题11 | 旋转数组的最小数字 | C++、Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9811.md) |
 
 <a id="data-structure"></a>
 ## 〽️ 数据结构
