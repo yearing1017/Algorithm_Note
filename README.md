@@ -62,6 +62,8 @@
 | 面试题18 | 删除链表的节点 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9818.md) |
 | 面试题21 | 调整数组使奇数位于偶数前面 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9821.md) |
 | 面试题22 |  链表中倒数第k个节点 | Python、Java| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9822.md) |
+| 面试题24 |  反转链表 | Python、Java| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9824.md) |
+| 面试题25 |  合并两个有序链表 | Python、Java| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9825.md) |
 
 <a id="data-structure"></a>
 ## 〽️ 数据结构
