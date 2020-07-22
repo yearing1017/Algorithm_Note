@@ -75,6 +75,7 @@
 | 面试题30 |  包含min函数的栈 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9830.md) |
 | 面试题32 |  从上到下打印二叉树② | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832.md) |
 | 面试题39 |  数组中出现次数超过一半的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9839.md) |
+| 面试题40 |  数组中前k大的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9840.md) |
 
 
 
