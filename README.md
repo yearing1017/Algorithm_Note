@@ -1,7 +1,5 @@
 # Algorithm_Note
 
-⏰记录刷题算法笔记
-
 ## 📑 目录
 * [⭐️ Leetcode_simple刷题笔记](#leetcode)
 * [⚡️  剑指offer](#offer)
