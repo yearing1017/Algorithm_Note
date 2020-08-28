@@ -9,8 +9,7 @@
 <a id="leetCode"></a>
 
 ## ⭐️ Leetcode_simple刷题笔记
-- 笔记链接：[Leetcode简单题目笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md)
-- 目前已解决题目列表：
+### 目前已解决题目列表：
 
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
