@@ -93,6 +93,7 @@
 | 面试题32-1 | 从上到下打印二叉树 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832-1.md) |
 | 面试题32 |  从上到下打印二叉树② | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832.md) |
 | 面试题35 |  复杂链表的复制 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9835.md) |
+| 面试题36 |  二叉搜索树与双向链表 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9836.md) |
 | 面试题39 |  数组中出现次数超过一半的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9839.md) |
 | 面试题40 |  最小的k个数 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9840.md) |
 | 面试题42 |  连续子数组的最大和 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9842.md) |
