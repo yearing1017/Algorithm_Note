@@ -1,14 +1,15 @@
 # Algorithm_Note
 
 ## 📑 目录
-* [⭐️ Leetcode_simple刷题笔记](#leetcode)
+* [⭐️ Leetcode刷题笔记](#leetcode)
 * [⚡️  剑指offer](#offer)
+* [📚 程序员代码面试指南](#zuo)
 * [〽️ 数据结构](#data-structure)
 * [📝 算法](#algorithm)
 
 <a id="leetCode"></a>
 
-## ⭐️ Leetcode_simple刷题笔记
+## ⭐️ Leetcode刷题笔记
 ### 已解决题目列表：
 
 |  id  |            题目            | 语言 |                           题解链接                           |
@@ -127,8 +128,16 @@
 | 面试题68-2 | 二叉树最近公共祖先 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9868-2.md) |
 
 
+<a id="zuo"></a>
+## 📚 程序员代码面试指南
 
+### 栈和队列
 
+|    id    |       题目       |   语言    |                           题解链接                           |
+| :------: | :--------------: | :-------: | :----------------------------------------------------------: |
+| q1_1 | 设计一个含有getMin功能的栈 | Python | # |
+| q1_2 | 设计一个含有getMin功能的栈 | Python | # |
+| q2 | 由两个栈组成的队列 | Python | # |
 
 
 <a id="data-structure"></a>
