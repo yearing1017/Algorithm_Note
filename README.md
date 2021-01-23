@@ -4,7 +4,6 @@
 * [⭐️ Leetcode刷题笔记](#leetcode)
 * [⚡️  剑指offer](#offer)
 * [📚 程序员代码面试指南](#zuo)
-* [〽️ 数据结构](#data-structure)
 * [📝 算法](#algorithm)
 
 <a id="leetCode"></a>
@@ -138,14 +137,15 @@
 | 1_1 | 设计一个含有getMin功能的栈 | Python | [q1_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
 | 1_2 | 设计一个含有getMin功能的栈 | Python | [q1_2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_2.py) |
 | 2 | 由两个栈组成的队列 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q2.py) |
+| 3 | 仅用递归函数和栈操作来逆序栈 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q3.py) |
+| 4 | 猫狗队列 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q4.py) |
+| 5 | 用一个栈实现另一个栈的排序 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q5.py) |
 
-
-<a id="data-structure"></a>
-## 〽️ 数据结构
- - [数据结构简单总结](https://github.com/yearing1017/Algorithm_Note/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 <a id="algorithm"></a>
 ## 📝 常用算法总结
+
+ - [数据结构简单总结](https://github.com/yearing1017/Algorithm_Note/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 ### 动态规划
 
@@ -177,8 +177,5 @@
 - [冒泡排序](https//yearing1017.cn/2019/05/29/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/)
 - [Dijkstra算法笔记](http://yearing1017.cn/2019/10/29/Dijkstra%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0/)
   
-  
-## 💡 算法知识积累
-- 学习算法必读系列
-  - [学习算法和刷题的框架思维](https://github.com/yearing1017/Algorithm_Note/blob/master/fuck-algorithm/学习算法和数据结构的高效方法.md)
+
  
