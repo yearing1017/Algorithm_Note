@@ -146,9 +146,10 @@
 
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
-| 1 | 打印两个有序链表的公共部分 | Python | [q1_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q1.py) |
+| 1 | 打印两个有序链表的公共部分 | Python | [q1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q1.py) |
 | 2 | 在单链表和双链表中删除倒数第k个结点 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q2.py) |
 | 3 | 删除链表的中间节点和a/b处的节点 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q3.py) |
+| 4 | 反转单向链表和反转双向链表 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q4.py) |
 
 
 <a id="algorithm"></a>
