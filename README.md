@@ -117,6 +117,7 @@
 | 面试题58-1 | 翻转单词顺序 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9858.md) |
 | 面试题58-2 | 左旋转字符串 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9858-2.md) |
 | 面试题59-1 | 滑动窗口的最大值 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9859-1.md) |
+| 面试题59-2 | 队列的最大值 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9859-2.md) |
 | 面试题61 | 扑克牌中的顺子 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9861.md) |
 | 面试题62 | 圆圈中最后剩下的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9862.md) |
 | 面试题63 | 股票的最大利润 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9863.md) |
@@ -150,6 +151,8 @@
 | 2 | 在单链表和双链表中删除倒数第k个结点 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q2.py) |
 | 3 | 删除链表的中间节点和a/b处的节点 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q3.py) |
 | 4 | 反转单向链表和反转双向链表 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q4.py) |
+| 5 | 反转单向链表中第from到to个节点 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q5.py) |
+| 6 | 约瑟夫环形链表 | Python | [q6.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q6.py) |
 
 
 <a id="algorithm"></a>
