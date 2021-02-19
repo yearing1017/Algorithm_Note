@@ -158,6 +158,7 @@
 | 6 | 约瑟夫环形链表 | Python | [q6.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q6.py) |
 | 7 | 判断回文结构 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q7.py) |
 | 10 | 两个单链表生成相加链表 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q10.py) |
+| 13 | 删除无序单链表中值重复出现的节点 | Python | [q13.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q13.py) |
 
 
 <a id="algorithm"></a>
