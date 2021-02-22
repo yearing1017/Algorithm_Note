@@ -145,6 +145,7 @@
 | 4 | 猫狗队列 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q4.py) |
 | 5 | 用一个栈实现另一个栈的排序 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q5.py) |
 | 7 | 生成窗口最大值数组 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q7.py) |
+| 8 | 单调栈问题 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q8.py) |
 
 ### 链表问题
 
