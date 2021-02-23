@@ -157,7 +157,8 @@
 | 4 | 反转单向链表和反转双向链表 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q4.py) |
 | 5 | 反转单向链表中第from到to个节点 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q5.py) |
 | 6 | 约瑟夫环形链表 | Python | [q6.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q6.py) |
-| 7 | 判断回文结构 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q7.py) |
+| 7 | 判断链表是否为回文结构 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q7.py) |
+| 9 | 复制含有随机指针的链表 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q9.py) |
 | 10 | 两个单链表生成相加链表 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q10.py) |
 | 13 | 删除无序单链表中值重复出现的节点 | Python | [q13.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q13.py) |
 | 14 | 删除单链表中指定值的节点 | Python | [q14.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q14.py) |
