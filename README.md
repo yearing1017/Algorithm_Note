@@ -138,8 +138,7 @@
 
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
-| 1_1 | 设计一个含有getMin功能的栈 | Python | [q1_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
-| 1_2 | 设计一个含有getMin功能的栈 | Python | [q1_2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_2.py) |
+| 1 | 设计一个含有getMin功能的栈 | Python | [q1_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
 | 2 | 由两个栈组成的队列 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q2.py) |
 | 3 | 仅用递归函数和栈操作来逆序栈 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q3.py) |
 | 4 | 猫狗队列 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q4.py) |
@@ -160,6 +159,7 @@
 | 7 | 判断链表是否为回文结构 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q7.py) |
 | 9 | 复制含有随机指针的链表 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q9.py) |
 | 10 | 两个单链表生成相加链表 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q10.py) |
+| 12 | 将单链表的每k个节点之间逆序 | Python | [q12.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q12.py) |
 | 13 | 删除无序单链表中值重复出现的节点 | Python | [q13.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q13.py) |
 | 14 | 删除单链表中指定值的节点 | Python | [q14.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q14.py) |
 | 16 | 单链表的选择排序 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q16.py) |

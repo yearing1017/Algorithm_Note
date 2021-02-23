@@ -6,7 +6,7 @@
 
 # 思路1：使用两个栈，一个用来保存当前栈的元素，功能与正常栈一样；另一个栈用于保存每一步的最小值；针对弹出时规则设定
 
-class MyStack:
+class MyStack1:
     def __init__(self):
         self.stackData = list()
         self.stackMin = list()
@@ -23,6 +23,30 @@ class MyStack:
         value = self.stackData.pop()
         if value == self.getMin():
             self.stackMin.pop()
+        return value
+    def getMin(self):
+        if len(self.stackMin) == 0:
+            print('stack is empty!')
+        return self.stackMin[-1]
+
+class MyStack2:
+    def __init__(self):
+        self.stackData = list()
+        self.stackMin = list()
+    def push(self, value):
+        length = len(self.stackMin)
+        if length == 0:
+            self.stackMin.append(value)
+        elif value <= self.getMin():
+            self.stackMin.append(value)
+        else:
+            self.stackMin.append(self.getMin())
+        self.stackData.append(value)
+    def pop(self):
+        if len(self.stackData) == 0:
+            print('stack is empty!')
+        self.stackMin.pop()
+        value = self.stackData.pop()
         return value
     def getMin(self):
         if len(self.stackMin) == 0:
