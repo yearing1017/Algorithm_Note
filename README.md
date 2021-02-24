@@ -138,7 +138,7 @@
 
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
-| 1 | 设计一个含有getMin功能的栈 | Python | [q1_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
+| 1 | 设计一个含有getMin功能的栈 | Python | [q1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
 | 2 | 由两个栈组成的队列 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q2.py) |
 | 3 | 仅用递归函数和栈操作来逆序栈 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q3.py) |
 | 4 | 猫狗队列 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q4.py) |
