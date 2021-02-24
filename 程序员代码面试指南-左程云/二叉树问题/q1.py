@@ -114,6 +114,20 @@ class LoopVisit:
                 print(stack.pop().value, end=' ')
                 h = c
 
+# 三种遍历方式放到一个函数中
+class Solution:
+    def threeOrders(self , root ):
+        pre_order, in_order, post_order = [], [], []
+        def find(root):
+            if not root: return None
+            pre_order.append(root.val)  # 先序：根左右
+            find(root.left)
+            in_order.append(root.val)   # 中序：左根右
+            find(root.right)
+            post_order.append(root.val) # 后序：左右根
+        find(root)
+        return [pre_order, in_order, post_order]
+
 if __name__ == '__main__':
     head = Node(5)
     head.left = Node(3)
