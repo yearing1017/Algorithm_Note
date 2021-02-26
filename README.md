@@ -19,10 +19,10 @@
 | 面试题06 | 从尾到头打印链表 | C++、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9806.md) | 辅助栈倒序输出 |
 | 面试题07 | 重建二叉树 | Java、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9807.md) |  |
 | 面试题09 | 用两个栈实现队列 | C++、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9809.md) | 删除时对应三种情况 |
-| 面试题10-1 | 斐波那契数列 | C++ | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-1.md) | 递归；动态规划 |
-| 面试题10-2 | 青蛙跳台阶 | C++ | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-2.md) | 递归；动态规划 |
+| 面试题10-1 | 斐波那契数列 | C++、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-1.md) | 递归；动态规划 |
+| 面试题10-2 | 青蛙跳台阶 | C++、Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9810-2.md) | 递归；动态规划 |
 | 面试题11 | 旋转数组的最小数字 | C++、Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9811.md) | 二分查找 |
-| 面试题12 | 矩阵中的路径 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9812.md) |  |
+| 面试题12 | 矩阵中的路径 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9812.md) | 递归；DFS；回溯 |
 | 面试题13 | 机器人的运动范围 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9813.md) |  |
 | 面试题14-1 | 剪绳子 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9814-1.md) |  |
 | 面试题14-2 | 剪绳子(大数取余) | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9814-2.md) |  |
@@ -121,6 +121,8 @@
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 1 | 递归和非递归实现二叉树先中后序遍历 | Python | [q1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q1.py) |
 | 2 | 打印二叉树的边界节点 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q2.py) |
+| 3 | 直观打印二叉树 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q3.py) |
+| 4 | 二叉树的序列化和反序列化 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q4.py) |
 
 
 
