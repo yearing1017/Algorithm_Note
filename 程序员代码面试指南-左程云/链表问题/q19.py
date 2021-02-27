@@ -26,10 +26,11 @@ class MergeListTool:
             return head2
         if head2 is None:
             return head1
-        
-        cur1 = head1
-        cur2 = head2
-
+        # 一定要保证cur1指向较小的那个头结点，cur2指下面那个； 否则pre.next会报错
+        cur1 = head1 if head1.value < head2.value else head2
+        #print(cur1.value)
+        cur2 = head2 if cur1 == head1 else head1 
+        #print(cur2.value)
         while cur1 and cur2:
             while cur1 and cur1.value <= cur2.value:
                 pre = cur1
@@ -56,7 +57,7 @@ class MergeListTool:
             return head2
         if head2 is None:
             return head1
-
+        # 一定要保证cur1指向较小的那个头结点，cur2指下面那个； 否则pre.next会报错
         head = head1 if head1.value < head2.value else head2
         cur1 = head1 if head == head1 else head2
         cur2 = head2 if head == head1 else head1
@@ -70,6 +71,7 @@ class MergeListTool:
             else:
                 next_node = cur2.next
                 pre.next = cur2
+                # 先连上cur1 后续若不符合条件可通过pre改变
                 cur2.next = cur1
                 pre = cur2
                 cur2 = next_node
@@ -81,12 +83,12 @@ class MergeListTool:
 
 
 if __name__ == '__main__':
-    head1 = Node(0)
+    head1 = Node(1)
     head1.next = Node(2)
     head1.next.next = Node(3)
     head1.next.next.next = Node(7)
 
-    head2 = Node(1)
+    head2 = Node(0)
     head2.next = Node(3)
     head2.next.next = Node(5)
     head2.next.next.next = Node(7)
