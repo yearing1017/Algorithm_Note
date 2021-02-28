@@ -123,7 +123,7 @@
 | 2 | 打印二叉树的边界节点 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q2.py) |
 | 3 | 直观打印二叉树 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q3.py) |
 | 4 | 二叉树的序列化和反序列化 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q4.py) |
-
+| 9 | 二叉树的按层打印和ZigZag打印 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q9.py) |
 
 
 
