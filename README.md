@@ -59,7 +59,7 @@
 | 面试题53-2 |  0~n-1中缺失的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9853-2.md) |  |
 | 面试题54 |  二叉搜索树的第k大结点 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9854.md) |  |
 | 面试题55-1 |  二叉树的深度 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9855-1.md) | 递归；后序遍历(DFS)；层次遍历(BFS) |
-| 面试题55-2 |  平衡二叉树 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9855-2.md) |  |
+| 面试题55-2 |  平衡二叉树 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9855-2.md) | 递归；先序遍历；后序遍历 |
 | 面试题56-1 | 数组中数字出现的次数 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-1.md) |  |
 | 面试题56-2 | 数组中数字出现的次数2 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-2.md) |  |
 | 面试题57 |  和为s的两个数字| Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9857.md) |  |
@@ -125,6 +125,7 @@
 | 4 | 二叉树的序列化和反序列化 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q4.py) |
 | 9 | 二叉树的按层打印和ZigZag打印 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q9.py) |
 | 11 | 判断t1树是否包含t2树全部的拓扑结构 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q11.py) |
+| 13 | 判断二叉树是否为平衡二叉树 | Python | [q13.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q13.py) |
 
 
 <a id="leetCode"></a>
