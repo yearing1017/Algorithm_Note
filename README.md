@@ -126,7 +126,7 @@
 | 9 | 二叉树的按层打印和ZigZag打印 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q9.py) |
 | 11 | 判断t1树是否包含t2树全部的拓扑结构 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q11.py) |
 | 13 | 判断二叉树是否为平衡二叉树 | Python | [q13.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q13.py) |
-
+| 14 | 根据后序数组重建搜索二叉树 | Python | [q14.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q14.py) |
 
 <a id="leetCode"></a>
 
