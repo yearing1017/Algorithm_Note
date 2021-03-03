@@ -131,6 +131,7 @@
 | 15 | 验证搜索二叉树和完全二叉树 | Python | [q15.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q15.py) |
 | 16 | 通过有序数组生成平衡搜索二叉树 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q16.py) |
 | 17 | 在二叉树中找到一个节点的后继节点 | Python | [q17.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q17.py) |
+| 18 | 在二叉树中找到两个节点的最近公共祖先节点 | Python | [q18.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q18.py) |
 
 <a id="leetCode"></a>
 
