@@ -130,6 +130,7 @@
 | 14 | 根据后序数组重建搜索二叉树 | Python | [q14.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q14.py) |
 | 15 | 验证搜索二叉树和完全二叉树 | Python | [q15.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q15.py) |
 | 16 | 通过有序数组生成平衡搜索二叉树 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q16.py) |
+| 17 | 在二叉树中找到一个节点的后继节点 | Python | [q17.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q17.py) |
 
 <a id="leetCode"></a>
 
@@ -170,6 +171,7 @@
 | 110  |         平衡二叉树         | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 | 121 | 股票的最大利润 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9863.md) |
 | 136 | 只出现一次的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-1.md) |
+| 141 | 判断链表中是否有环 | Python| [题解笔记](https://leetcode-cn.com/problems/linked-list-cycle/) |
 | 151 |翻转字符串的单词 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9858.md) |
 | 155 |  最小栈 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9830.md) |
 | 160 |  相交链表 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9852.md) |
