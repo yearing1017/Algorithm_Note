@@ -66,7 +66,7 @@ class DanDiaoStack:
             res[popIndex][1] = -1
         return res
 
-    # 单调栈1：只处理不含重复值的数组;
+    # 单调栈2：处理含重复值的数组;
     @classmethod
     def left_right_stack_3(cls, arr):
         length = len(arr)
