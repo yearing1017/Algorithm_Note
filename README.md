@@ -124,6 +124,7 @@
 | 2 | 打印二叉树的边界节点 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q2.py) |
 | 3 | 直观打印二叉树 | Python | [q3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q3.py) |
 | 4 | 二叉树的序列化和反序列化 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q4.py) |
+| 7 | 找到二叉树中最大的搜索二叉树 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q7.py) |
 | 9 | 二叉树的按层打印和ZigZag打印 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q9.py) |
 | 10 | 查找搜索二叉树中两个错误的节点 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q10.py) |
 | 11 | 判断t1树是否包含t2树全部的拓扑结构 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q11.py) |
@@ -133,6 +134,7 @@
 | 16 | 通过有序数组生成平衡搜索二叉树 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q16.py) |
 | 17 | 在二叉树中找到一个节点的后继节点 | Python | [q17.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q17.py) |
 | 18 | 在二叉树中找到两个节点的最近公共祖先节点 | Python | [q18.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q18.py) |
+| 20 | 二叉树节点间的最大距离 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q20.py) |
 | 24 | 统计完全二叉树节点的数目 | Python | [q24.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q24.py) |
 
 <a id="leetCode"></a>
