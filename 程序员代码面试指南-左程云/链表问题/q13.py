@@ -57,6 +57,37 @@ class DuplicatedNodeRemove:
             cur = cur.next
         return head
 
+# 此方法用来删除所有重复的元素，只保留出现一次的；例如 1123 结果为23
+'''
+1.设置伪结点，方便处理
+2.双指针prev和curr
+3.当遇到当前节点值和下一节点值相等的节点时，进行while循环找到下一个不相等的节点，挂到prev节点上
+4.当遇到当前节点值和下一节点值不相等的节点时，prev和curr都移动到下一个节点接着遍历就行
+'''
+
+class Solution:
+    def deleteDuplicates(self , head ):
+        # write code here
+        # 伪节点
+        node = ListNode(-1)
+        node.next = head
+        
+        pre = node
+        cur = head
+        
+        while cur and cur.next:
+            if cur.val == cur.next.val:
+                temp = cur.next
+                while temp and temp.val == cur.val:
+                    temp = temp.next
+                pre.next = temp
+                cur = temp
+            else:
+                pre = pre.next
+                cur = cur.next
+                
+        return node.next
+
 if __name__ == '__main__':
     head = Node(1)
     head.next = Node(2)
