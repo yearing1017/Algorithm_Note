@@ -137,6 +137,13 @@
 | 20 | 二叉树节点间的最大距离 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q20.py) |
 | 24 | 统计完全二叉树节点的数目 | Python | [q24.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q24.py) |
 
+
+### 递归和动态规划
+|    id    |       题目       |   语言    |                           题解链接                           |
+| :------: | :--------------: | :-------: | :----------------------------------------------------------: |
+| 2 | 矩阵中的最小路径和 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q2.py) |
+
+
 <a id="leetCode"></a>
 
 ## ⭐️ Leetcode刷题笔记
