@@ -43,6 +43,7 @@
 | 32-1 | 从上到下打印二叉树 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832-1.md) |  |
 | 32-2 |  从上到下打印二叉树2 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832.md) |  |
 | 32-3 | 从上到下打印二叉树3 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832-3.md) |  |
+| 33 |  二叉树搜索树的后序遍历序列 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9833.md) | 递归；单调栈 |
 | 34 |  二叉树中和为某一值的路径 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9834.md) |  |
 | 35 |  复杂链表的复制 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9835.md) |  |
 | 36 |  二叉搜索树与双向链表 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9836.md) |  |
