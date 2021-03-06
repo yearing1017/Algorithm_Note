@@ -145,6 +145,7 @@
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 2 | 矩阵中的最小路径和 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q2.py) |
 | 4 | 机器人到达位置方法数 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q4.py) |
+| 11 | 最长公共子串 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q11.py) |
 
 
 ### 数组和矩阵问题
