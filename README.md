@@ -118,6 +118,7 @@
 | 21 | 单链表的归并排序 | Python | [q21.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q21.py) |
 
 ### 二叉树问题
+
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 1 | 递归和非递归实现二叉树先中后序遍历 | Python | [q1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q1.py) |
@@ -139,11 +140,19 @@
 
 
 ### 递归和动态规划
+
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 2 | 矩阵中的最小路径和 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q2.py) |
 | 4 | 机器人到达位置方法数 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q4.py) |
 
+
+### 数组和矩阵问题
+
+|    id    |       题目       |   语言    |                           题解链接                           |
+| :------: | :--------------: | :-------: | :----------------------------------------------------------: |
+| 11 | 未排序数组中累加和为给定值的最长子数组长度 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q11.py) |
+| 16 | 机器人到达位置方法数 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
 
 <a id="leetCode"></a>
 
