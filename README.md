@@ -70,6 +70,7 @@
 | 58-2 | 左旋转字符串 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9858-2.md) |  |
 | 59-1 | 滑动窗口的最大值 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9859-1.md) |  |
 | 59-2 | 队列的最大值 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9859-2.md) |  |
+| 60 | n个骰子的点数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9860.md) | 动态规划 |
 | 61 | 扑克牌中的顺子 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9861.md) |  |
 | 62 | 圆圈中最后剩下的数字 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9862.md) |  |
 | 63 | 股票的最大利润 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9863.md) |  |
