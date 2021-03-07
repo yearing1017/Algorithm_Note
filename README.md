@@ -1,15 +1,20 @@
 # Algorithm_Note
 
 ## 📑 目录
-* [⚡️  剑指offer](#offer)
-* [📚 程序员代码面试指南](#zuo)
-* [⭐️ Leetcode刷题笔记](#leetcode)
-* [📝 算法](#algorithm)
+### [⚡️  剑指offer](#offer)
+### [📚 程序员代码面试指南](#zuo)
+#### [栈和队列问题](#sq)
+#### [链表问题](#list)
+#### [二叉树问题](#tree)
+#### [递归和动态规划](#dp)
+#### [数组和矩阵问题](#arr)
+#### [字符串问题](#str)
+### [⭐️ Leetcode刷题笔记](#leetcode)
+### [📝 算法](#algorithm)
 
 
 <a id="offer"></a>
 ## ⚡️ 剑指offer
-###  已刷题目列表：
 
 |    id    |       题目       |   语言    |                           题解链接                           |   知识点    |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: | :-------: |
@@ -88,6 +93,8 @@
 <a id="zuo"></a>
 ## 📚 程序员代码面试指南
 
+<a id="sq"></a>
+
 ### 栈和队列
 
 |    id    |       题目       |   语言    |                           题解链接                           |
@@ -99,6 +106,8 @@
 | 5 | 用一个栈实现另一个栈的排序 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q5.py) |
 | 7 | 生成窗口最大值数组 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q7.py) |
 | 8 | 单调栈问题 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q8.py) |
+
+<a id="list"></a>
 
 ### 链表问题
 
@@ -124,6 +133,8 @@
 | 20 | 按照左右半区的方式重新组合单链表 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q20.py) |
 | 21 | 单链表的归并排序 | Python | [q21.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q21.py) |
 
+<a id="tree"></a>
+
 ### 二叉树问题
 
 |    id    |       题目       |   语言    |                           题解链接                           |
@@ -145,6 +156,7 @@
 | 20 | 二叉树节点间的最大距离 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q20.py) |
 | 24 | 统计完全二叉树节点的数目 | Python | [q24.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q24.py) |
 
+<a id="dp"></a>
 
 ### 递归和动态规划
 
@@ -154,6 +166,7 @@
 | 4 | 机器人到达位置方法数 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q4.py) |
 | 11 | 最长公共子串 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q11.py) |
 
+<a id="arr"></a>
 
 ### 数组和矩阵问题
 
@@ -161,6 +174,15 @@
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 11 | 未排序数组中累加和为给定值的最长子数组长度 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q11.py) |
 | 16 | 机器人到达位置方法数 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
+
+<a id="str"></a>
+
+### 字符串问题
+
+|    id    |       题目       |   语言    |                           题解链接                           |
+| :------: | :--------------: | :-------: | :----------------------------------------------------------: |
+| 20 | 字符串中最长不重复子串长度 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q20.py) |
+
 
 <a id="leetCode"></a>
 
