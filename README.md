@@ -53,6 +53,7 @@
 | 40 |  最小的k个数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9840.md) |  |
 | 42 |  连续子数组的最大和 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9842.md) |  |
 | 45 | 把数组排成最小的数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9845.md) |  |
+| 46 | 数字翻译成字符串 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9846.md) | 动态规划；空间压缩 |
 | 47 |  礼物的最大值 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9847.md) |  |
 | 49 |  丑数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9849.md) |  |
 | 50 |  第一个只出现一次的字符 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9850.md) |  |
