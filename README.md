@@ -57,6 +57,7 @@
 | 47 |  礼物的最大值 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9847.md) |  |
 | 49 |  丑数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9849.md) |  |
 | 50 |  第一个只出现一次的字符 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9850.md) |  |
+| 51 |  数组中的逆序对 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9851.md) | 归并排序 |
 | 52 |  两个链表的第一个公共结点 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9852.md) |  |
 | 53-1 |  在排序数组中查找数字1 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9853-1.md) |  |
 | 53-2 |  0~n-1中缺失的数字 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9853-2.md) |  |
