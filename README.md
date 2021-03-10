@@ -180,6 +180,7 @@
 | 31 | 在行列有序矩阵中查找指定数 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q8.py) |
 | 11 | 未排序数组中累加和为给定值的最长子数组长度 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q11.py) |
 | 16 | 子数组的最大累加和问题 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
+| 19 | 数组中子数组的最大累乘积 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q19.py) |
 | 31 | 容器盛水问题 | Python | [q31.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q31.py) |
 
 
