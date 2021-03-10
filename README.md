@@ -168,6 +168,7 @@
 | 7 | 最长递增子序列 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q7.py) |
 | 10 | 最长公共子序列 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q10.py) |
 | 11 | 最长公共子串 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q11.py) |
+| 20 | 数组中最长连续序列 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q20.py) |
 | 22 | 最长回文子串 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q22.py) |
 
 <a id="arr"></a>
