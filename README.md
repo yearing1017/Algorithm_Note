@@ -183,7 +183,13 @@
 | 19 | 数组中子数组的最大累乘积 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q19.py) |
 | 31 | 容器盛水问题 | Python | [q31.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q31.py) |
 
+<a id="bit"></a>
 
+### 位运算
+
+|    id    |       题目       |   语言    |                           题解链接                           |
+| :------: | :--------------: | :-------: | :----------------------------------------------------------: |
+| 6 | 在其它数都出现k次的数组中找到只出现1次的数 | Python | [q6.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/位运算/q6.py) |
 
 <a id="str"></a>
 
