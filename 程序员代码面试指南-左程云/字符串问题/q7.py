@@ -1,22 +1,27 @@
+
 """
-问题描述：给定一个字符类型的数组chas，请在单词间做逆序调整。只要做到单词顺序逆序即可，
-对空格的位置没有特殊要求。
+问题描述：给定一个字符类型的数组chas[],chas右半区全是空字符，左半区不含空字符。
+现在想将左半区中所有的空格字符替换成"%20",假设chas右半区足够大，可以满足替换所
+需要的空间，请完成替换函数。
 
 举例：
-如果把chas看做字符串为"dog loves pig"，调整成"pig loves dog".
-如果把chas看做字符串为"I'm a student"，调整成"student a I'm".
-
-补充题目：
-给定一个字符类型的数组chas和一个整数size，请把大小为size的左半区整体移动到右半区，右半
-区整体移动到左边。
-
-举例：
-如果把chas看做字符串"ABCDE",size=3,调整为"DEABC"
+如果把chas的左半区看做字符串，为"a b  c"，假设chas的右半区足够大。替换后，chas
+的左半区为"a%20%b%20%20c"
 
 要求：
-如果chas长度为N，两道题都要求时间复杂度为O(N)，额外空间复杂度为O(1).
-"""
+替换函数时间复杂度为O(N),额外空间复杂度为O(1)
 
+补充题目：
+给定一个字符类型的数组chas[],其中只含有数字字符和"*"。现在想把所有的"*"字符挪到
+chas的左边，数字字符挪到chas的右边，请完成调整函数。
+
+举例：
+如果把chas看做字符串，为"12**345"，调整后chas为"**12345"
+
+要求：
+1.调整函数的时间复杂度为O(N)，额外空间复杂度为O(1)。
+2.不得改变数字字符从左到右出现的顺序。
+"""
 
 class StrRotation:
     # 逆序复制
@@ -28,7 +33,7 @@ class StrRotation:
         num = 0 # 左半区的空格数
         length = 0 # 记录左半区多大
 
-        while length < len(chas) and chas[length] != 0:
+        while length < len(chas) and chas[length] != '':
             if chas[length] == ' ':
                 num += 1
             length += 1
@@ -61,6 +66,6 @@ class StrRotation:
             j-=1
         return chas
 if __name__ == '__main__':
-    #print(StrRotation.get_rotated_chas(['d', 'o', 'g', ' ', 'l', 'o', 'v', 'e', 's', ' ', 'p', 'i', 'g']))
+    print(StrRotation.get_rotated_chas(['a', ' ', 'b', ' ', ' ', 'c', '', '', '', '', '', '', '', '']))
     #print(StrRotation.rotate_by_size(['1', '2', '3', '4', '5', 'A', 'B', 'C'], 3))
     print(StrRotation.modify(['1','2','*','*','3','4','5']))
