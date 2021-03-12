@@ -210,7 +210,7 @@
 |    id    |       题目       |   语言    |                           题解链接                           |
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 20 | 字符串中最长不重复子串长度 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q20.py) |
-
+| 26 | 字典树(前缀树)的实现 | Python | [q26.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q26.py) |
 
 <a id="leetCode"></a>
 
