@@ -99,6 +99,8 @@ class MaxSubSeq:
             l = 0
             r = right
             # 二分查找 此时ends中大于等于arr[i]的数
+            # 二分查找时 找大于等于target的数，若找到 l为当时的位置 若找不到 l为数组的最后一个数的位置+1
+            #二分查找时 找小于等于target的数，若找到 r为当时的位置 若找不到 r为数组的第一个数的位置-1
             while l <= r:
                 m = int((l + r)/2)
                 if arr[i] > ends[m]:
