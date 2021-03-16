@@ -27,6 +27,7 @@
 class Solution:
     def maxLetters(self , letters ):
         # write code here
+        # x表示letters中的元组，x[0]表示安照元组里的第一个元素排序，-x[1]按照列表中第二个元素倒着排序 
         letters.sort(key=lambda x:(x[0],-x[1]))
         ends = [1 for _ in range(len(letters))]
         ends[0] = letters[0][1]
