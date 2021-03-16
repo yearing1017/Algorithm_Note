@@ -170,6 +170,7 @@
 | 4 | 机器人到达位置方法数 | Python | [q4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q4.py) |
 | 7 | 最长递增子序列 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q7.py) |
 | 8 | 信封嵌套问题 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q8.py) |
+| 9 | 汉诺塔问题 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q9.py) |
 | 10 | 最长公共子序列 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q10.py) |
 | 11 | 最长公共子串 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q11.py) |
 | 19 | 跳跃游戏 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q19.py) |
