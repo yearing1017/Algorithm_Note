@@ -222,6 +222,7 @@
 | 7 | 字符串的调整与替换 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q7.py) |
 | 8 | 翻转字符串 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q8.py) |
 | 10 | 删除多余字符得到字典序最小的字符串 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q10.py) |
+| 11 | 数组中两个字符串的最小距离 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q11.py) |
 | 19 | 拼接所有字符串产生字典顺序最小的字符串 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q19.py) |
 | 20 | 字符串中最长不重复子串长度 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q20.py) |
 | 26 | 字典树(前缀树)的实现 | Python | [q26.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q26.py) |
