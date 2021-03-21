@@ -10,9 +10,9 @@
 
 class TrieNode:
     def __init__(self):
-        self.path = 0
-        self.end = 0
-        self.map = dict()
+        self.path = 0 # path表示有多少个单词共用这个结点
+        self.end = 0 # end表示有多少个单词以这个结点结尾
+        self.map = dict() # key表示当前结点的字符路径 val表示当前路径指向的结点
 
 
 class Trie:
