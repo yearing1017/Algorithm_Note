@@ -27,8 +27,9 @@ class Trie:
         for i in word:
             if i not in parent.map:
                 parent.map[i] = TrieNode()
-            parent.path += 1
+            
             parent = parent.map[i]
+            parent.path += 1
         parent.end += 1
 
     def search(self, word):
