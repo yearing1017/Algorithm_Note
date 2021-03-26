@@ -236,6 +236,7 @@
 | :------: | :--------------: | :-------: | :----------------------------------------------------------: |
 | 11 | 设计LRU缓存结构 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q11.py) |
 | 29 | 在两个长度相等的排序数组中找到上中位数 | Python | [q29.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q29.py) |
+| 32 | 出现次数的TopK问题 | Python | [q32.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q32.py) |
 
 
 
