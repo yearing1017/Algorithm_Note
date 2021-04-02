@@ -72,6 +72,8 @@ class LoopVisit:
                 print(cur.value, end=' ')
                 cur = cur.right
 
+
+
     # 使用两个栈后序遍历二叉树
     @classmethod
     def visit_in_last_order1(cls, head):
