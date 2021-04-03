@@ -158,6 +158,7 @@
 | 18 | 在二叉树中找到两个节点的最近公共祖先节点 | Python | [q18.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q18.py) |
 | 20 | 二叉树节点间的最大距离 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q20.py) |
 | 24 | 统计完全二叉树节点的数目 | Python | [q24.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q24.py) |
+| # | 前序和中序重建二叉树 | Python | [rebuild_tree.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
 
 <a id="dp"></a>
 
@@ -237,6 +238,9 @@
 | 11 | 设计LRU缓存结构 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q11.py) |
 | 29 | 在两个长度相等的排序数组中找到上中位数 | Python | [q29.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q29.py) |
 | 32 | 出现次数的TopK问题 | Python | [q32.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/q32.py) |
+| # | 堆排序 | Python | [heap.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/heapsort.py) |
+| # | 快速排序 | Python | [quick.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/quicksort.py) |
+| # | 最小k个数 | Python | [small_K.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/most_smallest_nums.py) |
 
 
 
