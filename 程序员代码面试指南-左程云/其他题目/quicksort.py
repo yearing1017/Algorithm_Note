@@ -24,7 +24,7 @@ class Solution:
 
 if __name__ == '__main__':
     solve = Solution()
-    input_list = [6, 4, 8, 9, 2, 3, 1]
+    input_list = [4,5,1,6,2,7,3,8]
     print('排序前:', input_list)
     sorted_list = solve.MySort(input_list)
     print('排序后:', sorted_list)
