@@ -160,6 +160,7 @@
 | 20 | 二叉树节点间的最大距离 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q20.py) |
 | 24 | 统计完全二叉树节点的数目 | Python | [q24.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q24.py) |
 | # | 前序和中序重建二叉树 | Python | [rebuild_tree.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
+| # | 打印二叉树右视图 | Python | [print_right_tree.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/print_right_tree.py) |
 
 <a id="dp"></a>
 
