@@ -8,8 +8,8 @@ class Solution:
             return head
         # 快慢指针找到链表的中间结点
         slow = head
-        fast = head.next
-        while fast and fast.next:
+        fast = head
+        while fast.next and fast.next.next:
             slow = slow.next
             fast = fast.next.next
         #偶数时 slow为左半部分最后一个 奇数时slow为中间结点
