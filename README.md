@@ -194,7 +194,9 @@
 | 16 | 子数组的最大累加和问题 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
 | 19 | 数组中子数组的最大累乘积 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q19.py) |
 | 31 | 容器盛水问题 | Python | [q31.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q31.py) |
-
+| # | 合并两个有序数组 | Python | [merge2arr.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/merge2arr.py) |
+| # | 螺旋矩阵 | Python | [lxmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/lxmatrix.py) |
+| # | 顺时针旋转矩阵 | Python | [xzmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzmatrix.py) |
 
 <a id="bigdata"></a>
 
@@ -232,6 +234,7 @@
 | 19 | 拼接所有字符串产生字典顺序最小的字符串 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q19.py) |
 | 20 | 字符串中最长不重复子串长度 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q20.py) |
 | 26 | 字典树(前缀树)的实现 | Python | [q26.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q26.py) |
+| # | 字符串数组最长公共前缀 | Python | [strarrqz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strarrqz.py) |
 
 
 <a id="other"></a>
@@ -247,6 +250,7 @@
 | # | 快速排序 | Python | [quick.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/quicksort.py) |
 | # | 最小k个数 | Python | [small_K.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/most_smallest_nums.py) |
 | # | 10进制转N进制 | Python | [10toN.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/10toN.py) |
+| # | 求平方根 | Python | [sqrt.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/sqrt.py) |
 
 
 

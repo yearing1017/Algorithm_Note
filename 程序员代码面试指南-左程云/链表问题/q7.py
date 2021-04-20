@@ -93,6 +93,36 @@ class HuiWen:
             n1 = n2
         return True
 
+    @classmethod
+    def is_huiwen_4(cls, head):
+        if not head or not head.next:
+            return True
+        slow = head
+        fast = head
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next
+        houhead = slow.next
+        slow.next = None
+        rev_houhead = cls.reverselist(houhead)
+        while head and rev_houhead:
+            if head.value != rev_houhead.value:
+                return False
+            head = head.next
+            rev_houhead = rev_houhead.next
+        return True
+    
+    @classmethod
+    def reverselist(cls, head):
+        pre = None
+        cur = head
+        while cur:
+            next_node = cur.next
+            cur.next = pre
+            pre = cur
+            cur = next_node
+        return pre
+
 
 if __name__ == '__main__':
     node = Node(1)
@@ -104,3 +134,4 @@ if __name__ == '__main__':
     print(HuiWen.is_huiwen(node))
     print(HuiWen.is_huiwen_2(node))
     print(HuiWen.is_huiwen_3(node))
+    print(HuiWen.is_huiwen_4(node))
