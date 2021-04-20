@@ -24,7 +24,7 @@ def rebuild(preorder, inorder):
         head.left = recur(root_index + 1, left_index, i-1)
         # 下面的参数为 右子树根节点在前序中的位置；右子树在中序中的左右边界
         # i- left + root + 1 为根节点索引 + 左子树长度 + 1
-        head.right = recur(i - left_index + root_index + 1, i+1, right)
+        head.right = recur(i - left_index + root_index + 1, i+1, right_index)
         return head
     dic = {}
     for i in range(len(inorder)):

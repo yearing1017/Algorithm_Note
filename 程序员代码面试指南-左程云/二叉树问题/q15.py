@@ -40,7 +40,24 @@ class JudgeTool:
                 return False
             pre = node.value
             cur = node.right
-        return False
+        return True
+
+    @classmethod
+    def is_bst_tree3(cls, head):
+        stack = []
+        pre = float('-inf')
+        cur = head
+        while stack or cur:
+            if cur:
+                stack.append(cur)
+                cur = cur.left
+            else:
+                node = stack.pop()
+                if node.value <= pre:
+                    return False
+                pre = node.value
+                cur = node.right
+        return True
 
 
     @classmethod
@@ -78,12 +95,13 @@ class JudgeTool:
 
 if __name__ == '__main__':
     head = Node(5)
-    head.left = Node(1)
-    head.right = Node(4)
-    head.right.left = Node(3)
-    #head.left.right = Node(3)
-    head.right.left = Node(6)
+    head.left = Node(3)
+    head.right = Node(6)
+    #head.right.left = Node(3)
+    head.left.right = Node(4)
+    #head.right.left = Node(6)
 
     print(JudgeTool.is_bst_tree(head))
     print(JudgeTool.is_bst_tree2(head))
+    print(JudgeTool.is_bst_tree3(head))
     print(JudgeTool.is_complete_tree(head))

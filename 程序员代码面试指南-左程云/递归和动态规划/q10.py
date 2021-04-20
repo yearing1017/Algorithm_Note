@@ -18,10 +18,14 @@ class SubSeqFinder:
         #print(res)
         index = len(res) - 1
         while index>=0:
+            # 与左方相等，说明计算dp[i][j]时，dp[i-1][j-1]+1不是必须选的决策，向左方移动即可
             if n>0 and dp[m][n] == dp[m][n-1]:
                 n -= 1
+            # 与上方相等，说明计算dp[i][j]时，dp[i-1][j-1]+1不是必须选的决策，向上方移动即可
             elif m>0 and dp[m][n] == dp[m-1][n]:
                 m -=1
+            # 既不等于左方 也不等于上方，说明计算dp[i][j]时，一定选择了dp[i-1][j-1]+1；
+            # 此时s1[i]和s2[j]相同，属于最长子序列，放进结果，向左上方移动
             else:
                 res[index] = s1[m]
                 index -= 1
@@ -33,12 +37,14 @@ class SubSeqFinder:
     @classmethod
     def getdp(cls, s1,s2):
         dp = [[0 for _ in range(len(s2))]for _ in range(len(s1))]
+        #dp[i][j] 代表s1[0...i]和s2[0...j]中最长公共子序列的长度值
         dp[0][0] = 1 if s1[0] == s2[0] else 0
         # 设置第一列的值
         for i in range(1, len(s1)):
             if s1[i] == s2[0]:
                 dp[i][0] = 1
             else:
+                # 只要s1[0...i]中有一个位置与s2单个字符相同，剩下的肯定包含这个字符。长度为1
                 dp[i][0] = max(dp[i-1][0],0)
         # 设置第一行的值
         for j in range(1, len(s2)):
@@ -49,8 +55,9 @@ class SubSeqFinder:
         # i，j位置对应三种情况
         for i in range(1, len(s1)):
             for j in range(1, len(s2)):
-                # 当末尾元素不等时
+                # 当末尾元素不等时，可能来自上方和左方
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+                # 末尾元素相等时，也可能等于左上方的+1
                 if s1[i] == s2[j]:
                     dp[i][j] = max(dp[i][j], dp[i-1][j-1]+1)
         #print(dp)
