@@ -21,14 +21,17 @@ class Solution:
                 l += 1
             tinput[r] = tinput[l]
         tinput[l] = pivot
-        self.quick_sort(tinput, left, l-1)
-        self.quick_sort(tinput, l+1, right)
+        #self.quick_sort(tinput, left, l-1)
+        #self.quick_sort(tinput, l+1, right)
         if k == l:
             return tinput[:k]
         elif k < l:
             return self.quick_sort(tinput, left, l-1)
         else:
             return self.quick_sort(tinput, l+1, right)
+        
+
+
 
 if __name__ == '__main__':
     arr = [4,5,1,6,2,7,3,8]

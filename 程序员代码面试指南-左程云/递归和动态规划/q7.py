@@ -20,6 +20,7 @@ class MaxSubSeq:
                     dp[i] = max(dp[i], dp[j] + 1)
         return dp
 
+
     @classmethod
     def get_res_list_1(cls, arr):
         if not arr:

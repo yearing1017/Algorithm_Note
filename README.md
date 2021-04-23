@@ -136,6 +136,7 @@
 | 20 | 按照左右半区的方式重新组合单链表 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q20.py) |
 | 21 | 单链表的归并排序 | Python | [q21.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q21.py) |
 | 22 | 合并K个有序链表 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/merge_k_lists.py) |
+| # | 删除链表中重复的元素 | Python | [delete_chongfu.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/delete_chongfu.py) |
 
 <a id="tree"></a>
 
@@ -197,6 +198,9 @@
 | # | 合并两个有序数组 | Python | [merge2arr.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/merge2arr.py) |
 | # | 螺旋矩阵 | Python | [lxmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/lxmatrix.py) |
 | # | 顺时针旋转矩阵 | Python | [xzmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzmatrix.py) |
+| # | 升序数组中数字出现的次数 | Python | [numcishu.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/numcishu.py) |
+| # | 相加和为0的三元组 | Python | [threenum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/threenum.py) |
+
 
 <a id="bigdata"></a>
 
@@ -251,6 +255,7 @@
 | # | 最小k个数 | Python | [small_K.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/most_smallest_nums.py) |
 | # | 10进制转N进制 | Python | [10toN.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/10toN.py) |
 | # | 求平方根 | Python | [sqrt.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/sqrt.py) |
+| # | 加起来为目标值的组合数 | Python | [target_zh.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/target_zh.py) |
 
 
 
