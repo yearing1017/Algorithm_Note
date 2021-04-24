@@ -19,7 +19,7 @@ class MergeListTool:
             print(head.value)
             head = head.next
     
-    # 法1
+    # 法1 新的链表是通过拼接两个链表的节点来生成的 不占用额外空间
     @classmethod
     def merge1(cls, head1, head2):
         if head1 is None:
@@ -49,6 +49,23 @@ class MergeListTool:
                 break
 
         return head1 if head1.value < head2.value else head2
+    
+    # 法3 通过新的链表合并两个有序链表
+    @classmethod
+    def merge3(cls, head1, head2):
+        dummy = new_head = Node(-1)
+        while head1 and head2:
+            if head1.value <= head2.value:
+                new_head.next = head1
+                head1 = head1.next
+            else:
+                new_head.next = head2
+                head2 = head2.next
+            new_head = new_head.next
+        new_head.next = head1 if head1 else head2
+        return dummy.next
+            
+
 
     # 法2
     @classmethod
@@ -94,8 +111,11 @@ if __name__ == '__main__':
     head2.next.next.next = Node(7)
     head2.next.next.next.next = Node(9)
 
-    new_head = MergeListTool.merge1(head1, head2)
-    MergeListTool.print_list(new_head)
+    #new_head = MergeListTool.merge1(head1, head2)
+    #MergeListTool.print_list(new_head)
 
-    new_head2 = MergeListTool.merge2(head1, head2)
-    MergeListTool.print_list(new_head2)
+    #new_head2 = MergeListTool.merge2(head1, head2)
+    #MergeListTool.print_list(new_head2)
+    
+    new_head3 = MergeListTool.merge3(head1, head2)
+    MergeListTool.print_list(new_head3)

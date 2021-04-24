@@ -25,6 +25,19 @@ class MaxSum:
                 cur = 0
         return max_sum
 
+    @classmethod
+    def get_max_sum2(cls, arr):
+        if not arr:
+            return 0
+        cur = arr[0]
+        max_sum = arr[0]
+        for i in range(1, len(arr)):
+            cur += arr[i]
+            max_sum = max(cur, max_sum)
+            cur = 0 if cur < 0 else cur
+        return max_sum        
+
 if __name__ == '__main__':
     my_arr = [1, -2, 3, 5, -2, 6, -1]
     print(MaxSum.get_max_sum(my_arr))
+    print(MaxSum.get_max_sum2(my_arr))

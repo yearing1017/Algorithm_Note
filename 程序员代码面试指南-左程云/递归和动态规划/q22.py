@@ -11,7 +11,7 @@ class Solution:
         size = len(s)
         if size < 2:
             return s
-
+        # dp[i][j] 表示以A[i]开头和A[j]结尾的字符串是否为回文串
         dp = [[False for _ in range(size)] for _ in range(size)]
 
         max_len = 1

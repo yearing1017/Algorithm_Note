@@ -24,6 +24,7 @@ class LongestNotRepeatStr:
             length = max(length, cur_len)
         return length
 
+
 if __name__ == '__main__':
     my_str = 'kqetrpslqrpbbdmjvjba'
     print(LongestNotRepeatStr.get_longest_sut_str(my_str))

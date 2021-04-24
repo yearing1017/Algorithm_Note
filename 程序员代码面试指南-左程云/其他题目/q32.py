@@ -98,6 +98,48 @@ class TOKTimesPrinter:
             index = smallest
             left = index * 2 +1
             right = index *2 +2
+
+# import heapq
+# class Solution:
+#     def topKstrings(self , strings , k ):
+#         n = len(strings)
+#         dic = {}
+#         for i in range(n):
+#             if strings[i] in dic:
+#                 dic[strings[i]] += 1
+#             else:
+#                 dic[strings[i]] = 1
+#         heap = []
+#         for num in set(strings):
+#             if len(heap) >= k:
+#                 if int(heap[0][0]) < dic[num]:
+#                     heapq.heapreplace(heap, (num, dic[num]))
+#             else:
+#                 heapq.heappush(heap, (num, dic[num]))
+#         return [[item[0], item[1]] for item in heap]
+
+import heapq
+class Solution:
+    def topKstrings(self , strings , k ):
+        # write code here
+        counter = {}
+        for ss in strings:
+            if ss not in counter:
+                counter[ss] = 1
+            else:
+                counter[ss] += 1
+        li = [(-val,key) for key,val in counter.items()]
+        print(li)
+        heapq.heapify(li)
+        print(li)
+        ans = []
+        for _ in range(k):
+            item = heapq.heappop(li)
+            ans.append([item[1],-item[0]])
+        return ans
 if __name__ == '__main__':
     strs = ['1', '1', '2', '3']
     TOKTimesPrinter.print_top_k(strs, 2)
+    solve = Solution()
+    res = solve.topKstrings(strs, 2)
+    print(res)

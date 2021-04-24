@@ -135,8 +135,11 @@
 | 19 | 合并两个有序单链表 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q19.py) |
 | 20 | 按照左右半区的方式重新组合单链表 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q20.py) |
 | 21 | 单链表的归并排序 | Python | [q21.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q21.py) |
-| 22 | 合并K个有序链表 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/merge_k_lists.py) |
+| # | 合并K个有序链表 | Python | [merge_k_lists.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/merge_k_lists.py) |
 | # | 删除链表中重复的元素 | Python | [delete_chongfu.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/delete_chongfu.py) |
+| # | 判断链表是否有环 | Python | [detectCycle_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_1.py) |
+| # | 链表中环的入口结点 | Python | [detectCycle_2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_2.py) |
+| # | 两个链表的第一个公共结点 | Python | [detectCycle_3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
 
 <a id="tree"></a>
 
@@ -183,6 +186,7 @@
 | 19 | 跳跃游戏 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q19.py) |
 | 20 | 数组中最长连续序列 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q20.py) |
 | 22 | 最长回文子串 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q22.py) |
+| # | 背包问题 | Python | [bag1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/bag1.py) |
 
 <a id="arr"></a>
 
@@ -200,6 +204,7 @@
 | # | 顺时针旋转矩阵 | Python | [xzmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzmatrix.py) |
 | # | 升序数组中数字出现的次数 | Python | [numcishu.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/numcishu.py) |
 | # | 相加和为0的三元组 | Python | [threenum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/threenum.py) |
+| # | 转动过的数组中查找目标值 | Python | [bstarget.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/bstarget.py) |
 
 
 <a id="bigdata"></a>
@@ -239,6 +244,9 @@
 | 20 | 字符串中最长不重复子串长度 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q20.py) |
 | 26 | 字典树(前缀树)的实现 | Python | [q26.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/q26.py) |
 | # | 字符串数组最长公共前缀 | Python | [strarrqz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strarrqz.py) |
+| # | 两个字符串代表的整数相加 | Python | [strsum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strsum.py) |
+| # | 字符串逆置大小写转换 | Python | [strtrans.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strtrans.py) |
+
 
 
 <a id="other"></a>
@@ -256,6 +264,13 @@
 | # | 10进制转N进制 | Python | [10toN.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/10toN.py) |
 | # | 求平方根 | Python | [sqrt.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/sqrt.py) |
 | # | 加起来为目标值的组合数 | Python | [target_zh.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/target_zh.py) |
+| # | 括号序列 | Python | [khxl.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/khxl.py) |
+| # | 翻转数字 | Python | [fzsz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/fzsz.py) |
+| # | 合并区间 | Python | [hbqj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/hbqj.py) |
+| # | 缺失数字 | Python | [qssz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/qssz.py) |
+| # | 股票(一次交易) | Python | [gupiao1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
+| # | 寻找峰值 | Python | [xzfz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/xzfz.py) |
+| # | 整数集合的子集 | Python | [zj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zj.py) |
 
 
 
