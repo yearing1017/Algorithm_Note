@@ -2,7 +2,6 @@
 对于一个字符串，请设计一个高效算法，计算其中最长回文子串的长度。
 给定字符串A以及它的长度n，请返回最长回文子串
 https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/
-
 '''
 
 # 动态规划法
@@ -38,7 +37,7 @@ class Solution:
         return s[start:start + max_len]
 
 # 中心扩散
-class Solution:
+class Solution2:
     def longestPalindrome(self, s: str) -> str:
         size = len(s)
         if size < 2:
