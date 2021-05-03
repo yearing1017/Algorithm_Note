@@ -140,6 +140,7 @@
 | # | 判断链表是否有环 | Python | [detectCycle_1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_1.py) |
 | # | 链表中环的入口结点 | Python | [detectCycle_2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_2.py) |
 | # | 两个链表的第一个公共结点 | Python | [detectCycle_3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
+| # | 链表的奇偶重排 | Python | [oddeven.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/oddeven.py) |
 
 <a id="tree"></a>
 
@@ -210,6 +211,7 @@
 | # | 转动过的数组中查找目标值 | Python | [bstarget.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/bstarget.py) |
 | # | 顺时针螺旋打印矩阵 | Python | [lxdy.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/lxdy.py) |
 | # | 在行列有序矩阵中查找指定数2 | Python | [maserch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/maserch.py) |
+| # | 数组中未出现的最小正整数 | Python | [mindisappear.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/mindisappear.py) |
 
 
 <a id="bigdata"></a>
