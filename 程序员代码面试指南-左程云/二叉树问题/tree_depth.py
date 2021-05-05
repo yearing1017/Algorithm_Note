@@ -10,8 +10,8 @@ class Solution:
     def maxDepth_1(self , root):
         # write code here
         if not root: return 0
-        left_d = self.maxDepth(root.left)
-        right_d = self.maxDepth(root.right)
+        left_d = self.maxDepth_1(root.left)
+        right_d = self.maxDepth_1(root.right)
         return max(left_d, right_d) + 1
     
     def maxDepth_2(self, root):
