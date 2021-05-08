@@ -214,6 +214,8 @@
 | # | 顺时针螺旋打印矩阵 | Python | [lxdy.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/lxdy.py) |
 | # | 在行列有序矩阵中查找指定数2 | Python | [maserch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/maserch.py) |
 | # | 数组中未出现的最小正整数 | Python | [mindisappear.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/mindisappear.py) |
+| # | 矩阵最长递增路径 | Python | [jzzcdzlj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/jzzdzclj.py) |
+
 
 
 <a id="bigdata"></a>
@@ -279,8 +281,11 @@
 | # | 合并区间 | Python | [hbqj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/hbqj.py) |
 | # | 缺失数字 | Python | [qssz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/qssz.py) |
 | # | 股票(一次交易) | Python | [gupiao1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
+| # | 股票(两次交易) | Python | [gupiao2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao2.py) |
+| # | 股票(无限次交易) | Python | [gupiao3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao3.py) |
 | # | 寻找峰值 | Python | [xzfz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/xzfz.py) |
 | # | 整数集合的子集 | Python | [zj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zj.py) |
+| # | 二叉搜索树转为排序双向列表 | Python | [bstree2list.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bstree2list.py) |
 
 
 
