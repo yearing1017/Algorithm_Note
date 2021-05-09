@@ -12,16 +12,15 @@ class SubArrMaxSum:
     def get_max_sum(cls, arr):
         if not arr:
             return 0
-        # 以arr[i-1]结尾的最大类乘积
+        # 以arr[i-1]结尾的最大累乘积
         max_val = arr[0]
-        # 以arr[i-1]结尾的最小类乘积
+        # 以arr[i-1]结尾的最小累乘积
         min_val = arr[0]
         res = arr[0]
         maxend = 0
         minend = 0
-        # 使用以arr[i-1]结尾的最大类乘积 和 最小 来求arr[i]结尾的最大乘积
+        # 使用以arr[i-1]结尾的最大累乘积 和 最小 来求arr[i]结尾的最大乘积
         for i in range(1, len(arr)):
-            
             maxend = max_val * arr[i]
             minend = min_val * arr[i]
             # 最大值有三种可能
