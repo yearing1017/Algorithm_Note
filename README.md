@@ -194,6 +194,7 @@
 | 20 | 数组中最长连续序列 | Python | [q20.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q20.py) |
 | 22 | 最长回文子串 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/q22.py) |
 | # | 背包问题 | Python | [bag1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/bag1.py) |
+| # | 最大正方形 | Python | [zdzfx.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/递归和动态规划/zdzfx.py) |
 
 <a id="arr"></a>
 
@@ -217,6 +218,7 @@
 | # | 在行列有序矩阵中查找指定数2 | Python | [maserch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/maserch.py) |
 | # | 数组中未出现的最小正整数 | Python | [mindisappear.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/mindisappear.py) |
 | # | 矩阵最长递增路径 | Python | [jzzcdzlj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/jzzdzclj.py) |
+| # | 旋转数组 | Python | [xzsz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzsz.py) |
 
 
 
