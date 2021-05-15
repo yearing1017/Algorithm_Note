@@ -14,3 +14,12 @@ class Solution:
             if prices[i] > prices[i-1]:
                 res += prices[i] - prices[i-1]
         return res
+    def maxProfit(self, prices):
+        # buy和sell都代表操作之后手里的钱
+        buy, sell = -float("inf"), 0
+        for p in prices:
+            # 可以多次买入卖出 所以不断从上次的sell状态转来 sell-p
+            buy = max(buy, sell - p)
+            # sell的状态肯定是由buy的状态转来
+            sell = max(sell, buy + p)
+        return sell

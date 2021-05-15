@@ -287,6 +287,9 @@
 | # | 股票(一次交易) | Python | [gupiao1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
 | # | 股票(两次交易) | Python | [gupiao2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao2.py) |
 | # | 股票(无限次交易) | Python | [gupiao3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao3.py) |
+| # | 股票(k次交易) | Python | [gupiao4.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao4.py) |
+| # | 股票(含冷冻期) | Python | [gupiao5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao5.py) |
+| # | 股票(含手续费) | Python | [gupiao6.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao6.py) |
 | # | 寻找峰值 | Python | [xzfz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/xzfz.py) |
 | # | 整数集合的子集 | Python | [zj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zj.py) |
 | # | 二叉搜索树转为排序双向列表 | Python | [bstree2list.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bstree2list.py) |
