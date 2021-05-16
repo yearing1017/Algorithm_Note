@@ -53,6 +53,7 @@ class Solution:
     
     def maxProfit(self, prices):
         # 只允许最多买两次，那么就有四个状态，第一次买，第一次卖，第二次买，第二次卖
+        # b1 b2和s1 s2都代表操作之后手里的钱
         b1, b2, s1, s2 = -float("inf"), -float("inf"), 0, 0
         for p in prices:
             b1 = max(b1, 0 - p)

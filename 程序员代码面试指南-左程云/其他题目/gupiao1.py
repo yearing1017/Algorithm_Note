@@ -12,7 +12,7 @@ class Solution:
         return pro
 
     def maxProfit2(self, prices):
-        # buy和sell都代表操作之后手里的钱。
+        # buy和sell都代表操作之后手里的钱
         buy, sell = -float("inf"), 0
         for p in prices:
             # 只有一次买入卖出 所以是0-p
