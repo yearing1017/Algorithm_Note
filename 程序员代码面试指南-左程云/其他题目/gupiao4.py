@@ -22,5 +22,5 @@ class Solution:
             # k*2个状态
             for i in range(1, k+1):
                 buy[i] = max(buy[i], sell[i-1] - p)
-                sell[i] = max(sell[i], buy[i-1] + p)
+                sell[i] = max(sell[i], buy[i] + p)
         return sell[-1]
