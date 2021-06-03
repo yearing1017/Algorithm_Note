@@ -206,6 +206,8 @@
 | 2 | 顺时针旋转矩阵 | Python | [q2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzmatrix.py) |
 | 5 | 需要排序的最短子数组长度 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q5.py) |
 | 8 | 在行列有序矩阵中查找指定数 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q8.py) |
+| 9 | 最长的可整合数组的长度 | Python | [q9.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q9.py) |
+| 10 | 打印排序数组中相加和为给定值的二元三元组 | Python | [q10.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q10.py) |
 | # | 在行列有序矩阵中查找指定数2 | Python | [maserch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/maserch.py) |
 | 11 | 未排序数组中累加和为给定值的最长子数组长度 | Python | [q11.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q11.py) |
 | 16 | 子数组的最大累加和问题 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
