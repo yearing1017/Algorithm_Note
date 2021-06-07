@@ -1,46 +1,41 @@
+# -*- coding: utf-8 -*-
+
 """
-问题描述:给定一个有N*M的整型矩阵matrix和一个整数K,matrix的每一行
-和每一列都是排好序的。实现一个函数，判断k是否在matrix中.
+问题描述:先给出可整合数组的定义.如果一个数组在排序之后,每相邻两个数差的绝对值
+都为１,则该数组为可整合数组.例如,[5, 3, 4, 6, 2]排序之后为[2, 3, 4, 5, 6],
+符合每相邻两个数差的绝对值都为１,所以这个数组为可整合数组.
+给定一个整型数组arr,请返回其中最大可整合子数组的长度.例如, [5, 5, 3, 2, 6, 4, 3]
+的最大可整合子数组为[5, 3, 2, 6, 4],所以返回5.
 
-例如:
-0  1  2  5
-2  3  4  7
-4  4  4  8
-5  7  7  9
-
-如果Ｋ为7,返回True；如果K为6,返回False.
-
-要求:
-时间复杂度为O(N+M),额外空间复杂度为O(1).
+思路： 依次遍历子数组（O(N^2)），查看子数组是否符合条件: 根据子数组的最大值-最小值 + 1 是否等于 子数组长度来判断 （O(1)）
 """
+import sys
 
-
-class NumberFinder:
+class IntegratedNumCounter:
     @classmethod
-    def find_num_in_matrix(cls, matrix, num):
-        rows = len(matrix)
-        cols = len(matrix[0])
+    def getLength(cls, arr):
+        if not arr:
+            return 0
+        length = 0
+        max_value = 0
+        min_value = 0
+        my_set = set()
+        for i in range(len(arr)):
+            max_value = -sys.maxsize
+            min_value = sys.maxsize
+            for j in range(i, len(arr)):
+                if arr[j] in my_set:
+                    break
+                my_set.add(arr[j])
+                max_value = max(arr[j], max_value)
+                min_value = min(arr[j], min_value)
 
-        row = 0
-        col = cols - 1
-        while row < rows and col >= 0:
-            if matrix[row][col] == num:
-                return True
-            elif matrix[row][col] > num:
-                col -= 1
-            else:
-                row += 1
-        else:
-            return False
-
+                if max_value - min_value == j - i:
+                    length = max(length, j - i + 1)
+            my_set.clear()
+        
+        return length
 
 if __name__ == '__main__':
-    my_matrix = [
-        [0, 1, 2, 3, 4, 5, 6],
-        [10, 12, 13, 15, 16, 17, 18],
-        [23, 24, 25, 26, 27, 28, 29],
-        [166, 176, 186, 187, 190, 195, 200],
-        [233, 243, 321, 341, 356, 370, 380]
-    ]
-    print(NumberFinder.find_num_in_matrix(my_matrix, 233))
-    print(NumberFinder.find_num_in_matrix(my_matrix, 203))
+    my_arr = [5, 5, 3, 2, 4, 6, 4]
+    print(IntegratedNumCounter.getLength(my_arr))

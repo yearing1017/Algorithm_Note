@@ -1,41 +1,60 @@
 # -*- coding: utf-8 -*-
 
 """
-问题描述:先给出可整合数组的定义.如果一个数组在排序之后,每相邻两个数差的绝对值
-都为１,则该数组为可整合数组.例如,[5, 3, 4, 6, 2]排序之后为[2, 3, 4, 5, 6],
-符合每相邻两个数差的绝对值都为１,所以这个数组为可整合数组.
-给定一个整型数组arr,请返回其中最大可整合子数组的长度.例如, [5, 5, 3, 2, 6, 4, 3]
-的最大可整合子数组为[5, 3, 2, 6, 4],所以返回5.
+问题描述:给定一个排序数组arr和整数k，不重复打印arr中所有相加和为k的不降序二元组。
+例如，arr=[-8, -4, -3, 0, 1, 2, 4, 5, 8, 9], k=10，打印结果为:
+1,9
+2,8
 
-思路： 依次遍历子数组（O(N^2)），查看子数组是否符合条件: 根据子数组的最大值-最小值 + 1 是否等于 子数组长度来判断 （O(1)）
+补充题目：
+给定排序数组arr和整数k，不重复打印arr中所有相加和为k的不降序三元组。
+例如，arr=[-8, -4, -3, 0, 1, 2, 4, 5, 8, 9], k=10，打印结果为:
+-4, 5, 9
+-3, 4, 9
+-3, 5, 8
+0, 1, 9
+0, 2, 8
+1, 4, 5
 """
-import sys
 
-class IntegratedNumCounter:
+class KnumOfSum:
     @classmethod
-    def getLength(cls, arr):
-        if not arr:
-            return 0
-        length = 0
-        max_value = 0
-        min_value = 0
-        my_set = set()
-        for i in range(len(arr)):
-            max_value = -sys.maxsize
-            min_value = sys.maxsize
-            for j in range(i, len(arr)):
-                if arr[j] in my_set:
-                    break
-                my_set.add(arr[j])
-                max_value = max(arr[j], max_value)
-                min_value = min(arr[j], min_value)
+    def get_two_tuple_of_sum(cls, arr, k):
+        if not arr or len(arr) == 1:
+            return
+        res = []
+        # 左右指针逼近
+        left = 0
+        right = len(arr) - 1
+        while left < right:
+            if arr[left] + arr[right] < k:
+                left += 1
+            elif arr[left] + arr[right] > k:
+                right -= 1
+            else:
+                # 判断不重复
+                if left == 0 or arr[left-1] != arr[left]:
+                    res.append((arr[left], arr[right]))
+                    left += 1
+                    right -= 1
+        return res
 
-                if max_value - min_value == j - i:
-                    length = max(length, j - i + 1)
-            my_set.clear()
-        
-        return length
+    @classmethod
+    def get_three_tuple_of_sum(cls, arr, k):
+        if not arr or len(arr) < 3:
+            return
+        for i in range(len(arr)):
+            # 三元组问题转为二元组的解法
+            new_k = k - arr[i]
+
+            if i == 0 or arr[i] != arr[i-1]:
+                # 固定第一个  转为二元组的解法
+                res = cls.get_two_tuple_of_sum(arr[i+1:], new_k)
+                if res:
+                    for x, y in res:
+                        print(arr[i], x, y)
 
 if __name__ == '__main__':
-    my_arr = [5, 5, 3, 2, 4, 6, 4]
-    print(IntegratedNumCounter.getLength(my_arr))
+    my_arr = [-8, -4, -3, 0, 1, 2, 2, 4, 5, 8, 9]
+    print(KnumOfSum.get_two_tuple_of_sum(my_arr, 10))
+    KnumOfSum.get_three_tuple_of_sum(my_arr, 10)
