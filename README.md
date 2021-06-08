@@ -214,6 +214,8 @@
 | 14 | 自然数数组的排序 | Python | [q14.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q14.py) |
 | 15 | 奇数下标都是奇数或者偶数下标都是偶数 | Python | [q15.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q15.py) |
 | 16 | 子数组的最大累加和问题 | Python | [q16.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q16.py) |
+| 17 | 子矩阵的最大累加和问题 | Python | [q17.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q17.py) |
+| 18 | 在数组中找到一个局部最小位置 | Python | [q18.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q18.py) |
 | 19 | 数组中子数组的最大累乘积 | Python | [q19.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q19.py) |
 | 31 | 容器盛水问题 | Python | [q31.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q31.py) |
 | # | 合并两个有序数组 | Python | [merge2arr.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/merge2arr.py) |
