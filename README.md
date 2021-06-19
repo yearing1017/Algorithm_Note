@@ -313,7 +313,14 @@
 <a id="leetCode"></a>
 
 ## ⭐️ Leetcode刷题笔记
-### 已解决题目列表：
+
+### Hot-100
+|  id  |            题目            | 语言 |                           题解链接                           |
+| :--: | :------------------------: | :--: | :----------------------------------------------------------: |
+|  338   | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
+|  461   | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
+
+### 随机刷题目
 
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
