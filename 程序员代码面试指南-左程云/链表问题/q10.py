@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 问题描述：假设链表中每个节点的值都在[0,9]之间，那么链表整体就可以代表一个整数，
 例如：9->3->7,可以代表整数937.给定两个这种链表的头结点head1和head2，请生
@@ -27,7 +28,7 @@ class ListAddTool:
             node = node.next
         '''
         while head:
-            print(head.value, end='')
+            print(head.value, end='\t')
             head = head.next
 
     @classmethod
@@ -147,6 +148,7 @@ class ListAddTool:
         n1 = 0
         n2 = 0
         n = 0
+        
         pre = None
         node = None
         cur1 = head1
@@ -155,34 +157,33 @@ class ListAddTool:
             n1 = cur1.value if cur1 else 0
             n2 = cur2.value if cur2 else 0
             n = n1 + n2 + ca
-            pre = node
             node = Node(n % 10)
-            print(node.value)
             node.next = pre
+            pre = node
             ca = n // 10
             cur1 = cur1.next if cur1 else None
             cur2 = cur2.next if cur2 else None
         if ca == 1:
             pre = node
             node = Node(1)
-            print(node.value)
             node.next = pre
         cls.revert_linked_list(head1)
         cls.revert_linked_list(head2)
+        
         return node
             
 
 if __name__ == '__main__':
     node1 = Node(9)
     node1.next = Node(9)
-    #node1.next.next = Node(9)
+    node1.next.next = Node(9)
 
     node2 = Node(1)
 
-    ListAddTool.print_list(ListAddTool.add_list_2(node1, node2))
-    print()
-    ListAddTool.print_list(ListAddTool.add_list_3(node1, node2))
-    print()
+    #ListAddTool.print_list(ListAddTool.add_list_2(node1, node2))
+    #print()
+    #ListAddTool.print_list(ListAddTool.add_list_3(node1, node2))
+    #print()
     ListAddTool.print_list(ListAddTool.add_list_4(node1, node2))
     print()
 
