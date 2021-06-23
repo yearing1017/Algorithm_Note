@@ -317,6 +317,8 @@
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
 | 2 | 两数相加 | Python | [2.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/lsxj.py) |
+| 3 | 无重复字符的最长子串 | Python | [3.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/wcfzczc.py) |
+| 5 | 最长回文子串 | Python | [5.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zchwzc.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
