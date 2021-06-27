@@ -321,6 +321,8 @@
 | 5 | 最长回文子串 | Python | [5.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zchwzc.py) |
 | 17 | 电话号码的字母组合 | Python | [17.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/dhhmzmzh.py) |
 | 19 | 删除链表的倒数第n个结点 | Python | [19.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/lbdsdnd.py) |
+| 21 | 合并两个有序链表 | Python | [21.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/hblgyxlb.py) |
+| 22 | 括号生成 | Python | [22.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/khsc.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
