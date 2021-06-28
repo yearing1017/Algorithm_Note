@@ -323,6 +323,8 @@
 | 19 | 删除链表的倒数第n个结点 | Python | [19.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/lbdsdnd.py) |
 | 21 | 合并两个有序链表 | Python | [21.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/hblgyxlb.py) |
 | 22 | 括号生成 | Python | [22.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/khsc.py) |
+| 23 | 合并K个升序链表 | Python | [23.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/hbkgsxlb.py) |
+| 31 | 下一个排列 | Python | [31.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/xygpl.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
