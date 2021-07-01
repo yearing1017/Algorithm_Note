@@ -328,6 +328,8 @@
 | 32 | 最长有效括号 | Python | [32.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zcyxkh.py) |
 | 33 | 搜索旋转排序数组 | Python | [33.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ssxzpxsz.py) |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | Python | [34.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/leftandright.py) |
+| 39 | 组合总和 | Python | [39.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zhzh.py) |
+| 40 | 组合总和II | Python | [40.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zhzh2.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
