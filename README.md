@@ -330,6 +330,11 @@
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | Python | [34.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/leftandright.py) |
 | 39 | 组合总和 | Python | [39.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zhzh.py) |
 | 40 | 组合总和II | Python | [40.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zhzh2.py) |
+| 46 | 全排列 | Python | [46.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/qpl.py) |
+| 48 | 旋转图像 | Python | [48.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/xztx.py) |
+| 49 | 字母异位词 | Python | [49.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zmywc.py) |
+| 53 | 最大子序和 | Python | [53.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zdzxh.py) |
+| 56 | 跳跃游戏 | Python | [56.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/tyyx.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
