@@ -334,7 +334,14 @@
 | 48 | 旋转图像 | Python | [48.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/xztx.py) |
 | 49 | 字母异位词 | Python | [49.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zmywc.py) |
 | 53 | 最大子序和 | Python | [53.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zdzxh.py) |
-| 56 | 跳跃游戏 | Python | [56.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/tyyx.py) |
+| 55 | 跳跃游戏 | Python | [55.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/tyyx.py) |
+| 56 | 合并区间 | Python | [56.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/hbqj.py) |
+| 62 | 不同路径 | Python | [62.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/btlj.py) |
+| 64 | 最小路径和 | Python | [64.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zxljh.py) |
+| 70 | 爬楼梯 | Python | [70.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/plt.py) |
+| 75 | 颜色分类 | Python | [75.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ysfl.py) |
+| 78 | 子集 | Python | [78.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zj.py) |
+| 79 | 单词搜索 | Python | [79.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/dcss.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
