@@ -342,6 +342,12 @@
 | 75 | 颜色分类 | Python | [75.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ysfl.py) |
 | 78 | 子集 | Python | [78.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zj.py) |
 | 79 | 单词搜索 | Python | [79.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/dcss.py) |
+| 94 | 树的中序遍历 | Python | [94.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/zxbl.py) |
+| 98 | 验证二叉搜索树 | Python | [98.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/yzecsss.py) |
+| 101 | 对称二叉树 | Python | [101.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/dcecs.py) |
+| 102 | 二叉树的层次遍历 | Python | [102.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ecsdccbl.py) |
+| 104 | 二叉树的最大深度 | Python | [104.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ecsdzdsd.py) |
+| 105 | 从前序和中序遍历序列构建二叉树 | Python | [105.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
