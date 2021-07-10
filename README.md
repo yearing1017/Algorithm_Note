@@ -347,6 +347,11 @@
 | 102 | 二叉树的层次遍历 | Python | [102.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ecsdccbl.py) |
 | 104 | 二叉树的最大深度 | Python | [104.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/ecsdzdsd.py) |
 | 105 | 从前序和中序遍历序列构建二叉树 | Python | [105.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
+| 114 | 二叉树展开为链表 | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/tree2list.py) |
+| 121 | 买卖股票的最佳时机 | Python | [121.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
+| 136 | 只出现一次的数字 | Python | [136.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/cxycdsz.py) |
+| 139 | 单词拆分 | Python | [139.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/dccf.py) |
+| 141 | 环形链表 | Python | [141.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_1.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
