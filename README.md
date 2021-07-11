@@ -349,9 +349,16 @@
 | 105 | 从前序和中序遍历序列构建二叉树 | Python | [105.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
 | 114 | 二叉树展开为链表 | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/tree2list.py) |
 | 121 | 买卖股票的最佳时机 | Python | [121.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
+| 128 | 最长连续序列 | Python | [128.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zclxxl.py) |
 | 136 | 只出现一次的数字 | Python | [136.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/cxycdsz.py) |
 | 139 | 单词拆分 | Python | [139.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/dccf.py) |
 | 141 | 环形链表 | Python | [141.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_1.py) |
+| 142 | 环形链表的环形入口结点 | Python | [142.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_2.py) |
+| 148 | 排序链表 | Python | [148.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/pxlb.py) |
+| 152 | 乘积最大子数组 | Python | [152.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/cjzdzsz.py) |
+| 155 | 最小栈 | Python | [155.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
+| 160 | 相交链表 | Python | [160.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
+| 169 | 多数元素 | Python | [169.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/dsys.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/fzecs.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
