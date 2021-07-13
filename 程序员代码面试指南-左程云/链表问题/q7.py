@@ -101,7 +101,7 @@ class HuiWen:
         fast = head
         while fast.next and fast.next.next:
             slow = slow.next
-            fast = fast.next
+            fast = fast.next.next
         houhead = slow.next
         slow.next = None
         rev_houhead = cls.reverselist(houhead)

@@ -22,5 +22,6 @@ class Solution:
             cur = stack.pop()
             if cur.left: stack.append(cur.left)
             if cur.right: stack.append(cur.right)
+            # 交换前 先保存下来  之后 出栈的 时候 右 左 出
             cur.left, cur.right = cur.right, cur.left
         return root

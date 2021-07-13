@@ -227,7 +227,7 @@
 | # | 数组中未出现的最小正整数 | Python | [mindisappear.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/mindisappear.py) |
 | # | 矩阵最长递增路径 | Python | [jzzcdzlj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/jzzdzclj.py) |
 | # | 旋转数组 | Python | [xzsz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzsz.py) |
-| # | 在行列有序矩阵中查找指定数2 | Python | [maserch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/maserch.py) |
+
 
 
 <a id="bigdata"></a>
@@ -365,6 +365,10 @@
 | 207 | 课程表 | Python | [207.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/kcb.py) |
 | 221 | 最大正方形 | Python | [221.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zdzfx.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/fzecs.py) |
+| 234 | 回文链表 | Python | [234.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hwlb.py) |
+| 236 | 二叉树最近公共祖先节点 | Python | [236.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q18.py) |
+| 238 | 除自身以外数组的乘积 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/czsywdcj.py) |
+| 240 | 搜索二维矩阵2 | Python | [240.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q7.py) |
 | 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
 | 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbecs.py) |
