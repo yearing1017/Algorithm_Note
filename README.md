@@ -375,8 +375,9 @@
 | 283 | 移动零 | Python | [283.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/ydl.py) |
 | 297 | 二叉树的序列化与反序列化 | Python | [297.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/xlhyfxlh.py) |
 | 300 | 最长递增子序列 | Python | [300.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zcdzzxl.py) |
-| 338 | 比特位计数 | Python  | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
-| 461 | 汉明距离 | Python  | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
+| 309 | 股票(含冷冻期) | Python | [309.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao5.py) |
+| 338 | 比特位计数 | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
+| 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
 | 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbecs.py) |
 
 ### 随机刷题目
