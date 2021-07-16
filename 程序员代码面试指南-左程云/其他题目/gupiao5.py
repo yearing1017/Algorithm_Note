@@ -14,11 +14,9 @@ https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/5xi
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         buy, sell_pre, sell = -float("inf"), 0, 0
-
         for p in prices:
             # buy 只能从两个状态转来 本身保持不变 冷冻期买入
             buy = max(buy, sell_pre - p)
             sell_pre = sell
             sell = max(sell, buy + p)
-        
-        return sell
+        return sellß
