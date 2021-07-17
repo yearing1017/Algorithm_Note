@@ -303,7 +303,6 @@
 | # | 二叉搜索树转为排序双向列表 | Python | [bstree2list.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bstree2list.py) |
 | # | 比特位计数 | Python | [btnum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/btnum.py) |
 | # | 二分查找 | Python | [bisearch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bisearch.py) |
-| # | 打家劫舍3 | Python | [djjs3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/djjs3.py) |
 
 
 
@@ -376,7 +375,10 @@
 | 297 | 二叉树的序列化与反序列化 | Python | [297.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/xlhyfxlh.py) |
 | 300 | 最长递增子序列 | Python | [300.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zcdzzxl.py) |
 | 309 | 股票(含冷冻期) | Python | [309.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao5.py) |
+| 337 | 打家劫舍3 | Python | [337.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/djjs3.py) |
 | 338 | 比特位计数 | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
+| 394 | 字符串解码 | Python | [394.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zfcjm.py) |
+| 406 | 根据身高重建队列 | Python | [406.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/gjsgcjdl.py) |
 | 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
 | 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbecs.py) |
 
