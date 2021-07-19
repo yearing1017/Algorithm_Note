@@ -363,6 +363,7 @@
 | 200 | 岛屿数量 | Python | [200.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/dysl.py) |
 | 206 | 反转链表 | Python | [206.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q4.py) |
 | 207 | 课程表 | Python | [207.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/kcb.py) |
+| 208 | 前缀树 | Python | [208.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/qzs.py) |
 | 215 | 数组中的第K个最大元素 | Python | [215.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/dkdys.py) |
 | 221 | 最大正方形 | Python | [221.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zdzfx.py) |
 | 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/fzecs.py) |
@@ -379,10 +380,14 @@
 | 337 | 打家劫舍3 | Python | [337.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/djjs3.py) |
 | 338 | 比特位计数 | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/btwjs.py) |
 | 394 | 字符串解码 | Python | [394.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zfcjm.py) |
+| 399 | 除法求值 | Python | [399.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/cfqz.py) |
 | 406 | 根据身高重建队列 | Python | [406.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/gjsgcjdl.py) |
 | 416 | 分割等和子集 | Python | [416.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/fgdhzj.py) |
+| 438 | 找到字符串中的所有字母异位词 | Python | [438.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zmywc2.py) |
 | 448 | 找到所有数组中消失的数字 | Python | [448.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/xsdsz.py) |
 | 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
+| 538 | 把二叉搜索树转为累加树 | Python | [538.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/ljs.py) |
+| 543 | 二叉树的直径 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/ecszj.py) |
 | 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbecs.py) |
 
 ### 随机刷题目
