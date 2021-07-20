@@ -388,7 +388,11 @@
 | 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/hmjl.py) |
 | 538 | 把二叉搜索树转为累加树 | Python | [538.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/ljs.py) |
 | 543 | 二叉树的直径 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/ecszj.py) |
+| 560 | 和为k的子数组 | Python | [560.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/kzsz.py) |
+| 581 | 最短无序连续子数组 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/zdwxlxzsz.py) |
 | 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbecs.py) |
+| 647 | 回文子串 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hwzc.py) |
+| 739 | 每日温度 | Python | [739.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/mrwd.py) |
 
 ### 随机刷题目
 
