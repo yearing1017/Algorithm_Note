@@ -29,7 +29,7 @@ class MaxSum:
     def get_max_sum2(cls, arr):
         if not arr:
             return 0
-        cur = arr[0]
+        cur = 0
         max_sum = arr[0]
         for i in range(1, len(arr)):
             cur += arr[i]
