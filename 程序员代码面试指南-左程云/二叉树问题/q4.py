@@ -105,7 +105,50 @@ class SerializedTree:
         if value == '#':
             return None
         return Node(value)
-            
+
+class Codec:
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        :type root: Node
+        :rtype: str
+        """
+        # 题目要求返回字符串
+        if not root:
+            return '[]'
+        queue = [root]
+        res = []
+        while queue:
+            node = queue.pop(0)
+            if node:
+                res.append(str(node.val))
+                queue.append(node.left)
+                queue.append(node.right)
+            else:
+                res.append('null')
+        return '[' + ','.join(res) + ']'
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        :type data: str
+        :rtype: TreeNode
+        """
+        if data == '[]': return 
+        vals = data[1:-1].split(',')
+        root = Node(int(vals[0]))
+        index = 1
+        queue = []
+        if root: queue.append(root)
+        while queue:
+            node = queue.pop(0)
+            if vals[index] != 'null':
+                node.left = Node(str(vals[index]))
+                queue.append(node.left)
+            index += 1
+            if vals[index] != 'null':
+                node.right = Node(str(vals[index]))
+                queue.append(node.right)
+            index += 1
+        return root      
 
 if __name__ == '__main__':
     head = Node(1)

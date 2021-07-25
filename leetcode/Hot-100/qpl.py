@@ -16,6 +16,7 @@ class Solution:
 
         def helper(length, temp):
             if length == n:
+                # 若题目要求[1,1,2]求全排列不重复 这个地方需要判断 
                 res.append(temp)
                 return
             for i in range(n):
