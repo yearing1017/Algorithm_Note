@@ -89,6 +89,7 @@
 | 64 | 求1+2+...+n | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9864.md) |
 | 65 | 不用加减乘除做加法 | Java| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9865.md) |
 | 66 | 构建乘积数组 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9866.md) |
+| 67 | 把字符串转换为整数 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/67.py) |
 | 68-1 | 二叉搜索树最近公共祖先 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9868-1.md) |
 | 68-2 | 二叉树最近公共祖先 | Python| [题解](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9868-2.md) |
 
