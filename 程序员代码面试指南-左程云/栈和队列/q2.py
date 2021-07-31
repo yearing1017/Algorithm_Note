@@ -48,7 +48,7 @@ class CQueue:
         else:
             while self.stack_in:
                 self.stack_out.append(self.stack_in.pop())
-        return self.stack_out.pop()
+            return self.stack_out.pop()
 '''
 
 if __name__ == '__main__':

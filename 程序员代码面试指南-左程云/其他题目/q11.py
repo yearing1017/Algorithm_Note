@@ -122,6 +122,40 @@ class Solution:
                 ret.append(self.LRUca.get(str(items[1])))
         return ret
 
+# 牛客 解法
+class Solution:
+    dic_lru = {}
+    list_lru = []
+
+    def set(self, key, val, k):
+        self.dic_lru[key] = val
+        # 列表负责记录key的常用(尾部) 不常用情况（头部）
+        self.list_lru.append(key)
+        # 超出长度时  先排出一个
+        if len(self.list_lru) > k:
+            del self.dic_lru[self.list_lru[0]]
+            del self.list_lru[0]
+    
+    def get(self, key):
+        if key in self.dic_lru:
+            # 先把这个key移除
+            self.list_lru.remove(key)
+            # 再添加到尾部 代表常用
+            self.list_lru.append(key)
+            return self.dic_lru[key]
+        return  -1
+
+    def LRU(self, operators, k):
+        res = []
+        SET = 1
+        GET = 2
+        for items in operators:
+            if items[0] == SET:
+                self.set(str(items[1]), items[2], k)
+            elif items[0] == GET:
+                res.append(self.get(str(items[1])))
+        return res
+    
 
 if __name__ == '__main__':
     '''
