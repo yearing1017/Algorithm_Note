@@ -12,3 +12,18 @@ def isValid(self , s):
             if not stack or stack.pop() != dic[i]:
                 return False
     return len(stack) == 0
+
+
+def isValid(self , s ):
+        # write code here
+        dic = {'{':'}', '[':']', '(':')'}
+        stack = []
+        for a in s:
+            # 遇到左括号 添加到栈中
+            if a in dic:
+                stack.append(a)
+            else:
+                #  遇到右括号 检测 栈顶是否与该右括号匹配
+                if not stack or a!= dic[stack.pop()]:
+                    return False
+        return len(stack) == 0
