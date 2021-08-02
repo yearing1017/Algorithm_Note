@@ -89,6 +89,33 @@ class MaxSubPubstrFinder:
             else:
                 row += 1
         return str1[end - max_len + 1 : end+1]
+
+    @classmethod
+    def find(cls, str1, str2):
+        m = len(str1)
+        n = len(str2)
+        # dp[i][j] 代表 以str1[i] 和 以str2[j] 结尾的两个最长公共子串的长度
+        dp = [[0 for _ in range(n)] for _ in range(m)]
+        
+        max_len = 0
+        end = 0
+
+        # 每行每列
+        for i in range(m):
+            for j in range(n):
+                # 前提条件
+                if str1[i] == str2[j]:
+                    # 第一行 第一列
+                    if i == 0 or j == 0:
+                        dp[i][j] = 1
+                    else:
+                        dp[i][j] = dp[i-1][j-1] + 1
+                if dp[i][j] > max_len:
+                    max_len = dp[i][j]
+                    end = i
+        return str1[end-max_len+1: end+1]
+
+
         
 
 if __name__ == '__main__':
