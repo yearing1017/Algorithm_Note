@@ -171,7 +171,35 @@ class ListAddTool:
         cls.revert_linked_list(head2)
         
         return node
-            
+
+    # 若两个链表都是倒序存放 例如输入：(7 -> 1 -> 6) + (5 -> 9 -> 2)，即617 + 295  输出：2 -> 1 -> 9，即912
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        cur1 = l1
+        cur2 = l2
+        n1 = 0
+        n2 = 0
+        n = 0
+        ca = 0
+        pre = cur = ListNode(-1)
+        while cur1 or cur2:
+            n1 = cur1.val if cur1 else 0
+            n2 = cur2.val if cur2 else 0
+
+            n = n1 + n2 + ca
+
+            node = ListNode(n % 10)
+            cur.next = node
+            cur = node
+
+            ca = n // 10
+
+            cur1 = cur1.next if cur1 else None
+            cur2 = cur2.next if cur2 else None
+        
+        if ca:
+            cur.next = ListNode(1)
+        
+        return pre.next
 
 if __name__ == '__main__':
     node1 = Node(9)
