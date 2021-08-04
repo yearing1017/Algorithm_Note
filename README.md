@@ -270,6 +270,8 @@
 | # | 字符串数组最长公共前缀 | Python | [strarrqz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strarrqz.py) |
 | # | 两个字符串代表的整数相加 | Python | [strsum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strsum.py) |
 | # | 字符串逆置大小写转换 | Python | [strtrans.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strtrans.py) |
+| # | 字符串出现的TopK问题 | Python | [strTopk.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strTopk.py) |
+
 
 
 

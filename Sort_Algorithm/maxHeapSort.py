@@ -38,7 +38,17 @@ class Solution(object):
             self.maxHeapify(nums, 0, heapsize)
         return nums[0]
 
+    def findKLargest(self, nums, k):
+        heapsize = len(nums)
+        self.buildHeap(nums, heapsize)
+        for i in range(k):
+            self.swap(nums, 0, heapsize-1)
+            heapsize -= 1
+            self.maxHeapify(nums, 0, heapsize)
+        return nums[:-(k+1):-1]
+
     def heapSort(self, nums):
+        # 完整的堆排序
         # 初始化堆
         heapsize = len(nums)
         self.buildHeap(nums, heapsize)
@@ -55,4 +65,5 @@ if __name__ == "__main__":
     # 大顶堆 升序
     #print(slove.heapSort(nums))
     # 大顶堆 查找第k大的元素
-    print(slove.findKthLargest(nums, 4))
+    #print(slove.findKthLargest(nums, 4))
+    print(slove.findKLargest(nums, 4))
