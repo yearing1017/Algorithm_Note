@@ -25,6 +25,25 @@ class AncestorFinder:
             return None
 
     @classmethod
+    def find_ancestor_by_val(cls, root, o1, o2):
+        # @param root TreeNode类 
+        # @param o1 int整型 
+        # @param o2 int整型 
+        # @return int整型
+        if not root or root.val == o1 or root.val == o2:
+            return root.val if root else None
+        left = cls.lowestCommonAncestor(root.left, o1, o2)
+        right = cls.lowestCommonAncestor(root.right, o1, o2)
+        if left and right:
+            return root.val
+        elif not left and right:
+            return right
+        elif not right and left:
+            return left
+        else:
+            return None
+
+    @classmethod
     def find_ancestor_by_hash(cls, head, node1, node2):
         hash_table = dict()
         if head:
