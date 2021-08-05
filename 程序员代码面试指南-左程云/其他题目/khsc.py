@@ -9,17 +9,24 @@ class Solution:
         cur_str = ''
 
         def dfs(cur_str, left, right):
-            # 递归终止条件
+            '''
+            :param cur_str: 从根结点到叶子结点的路径字符串
+            :param left: 左括号还可以使用的个数
+            :param right: 右括号还可以使用的个数
+            '''
+            #递归终止条件
             if left == 0 and right == 0:
                 res.append(cur_str)
                 return
-            # 剪枝条件 若所剩右括号数量小于左括号数量，说明不合法
+            # 剪枝条件
+            # 若所剩右括号xiao于左括号 则说明先使用的右 不合法
             if right < left:
                 return
-            # 有左括号 就先用左括号
+            # 只有还有左括号就先用左
             if left > 0:
-                dfs(cur_str+'(', left-1, right)
+                dfs(cur_str + '(', left-1, right)
             if right > 0:
                 dfs(cur_str+')', left, right-1)
         dfs(cur_str, n, n)
         return res
+        

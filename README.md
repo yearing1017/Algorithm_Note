@@ -142,6 +142,7 @@
 | # | 链表中环的入口结点 | Python | [detectCycle_2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_2.py) |
 | # | 两个链表的第一个公共结点 | Python | [detectCycle_3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
 | # | 链表的奇偶重排 | Python | [oddeven.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/oddeven.py) |
+| # | 重排链表 | Python | [headtail.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/headtail.py) |
 
 <a id="tree"></a>
 
