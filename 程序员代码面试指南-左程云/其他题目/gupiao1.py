@@ -19,5 +19,27 @@ class Solution:
             # sell的状态肯定是由buy的状态转来
             buy = max(buy, 0 - p)
             sell = max(sell, buy + p)
-
         return sell
+
+    def maxProfit3(self, prices):
+        # buy和sell都代表操作之后手里的钱
+        buy, sell = -float("inf"), 0
+        p1 = 0
+        p2 = 0
+        for p in prices:
+            # 记录  最大利润时 对应的买入 卖出 价格
+            cur_buy = buy
+            if (0-p) > cur_buy:
+                buy = 0-p
+                p1 = p
+            
+            cur_sell = sell
+            if (buy + p) > cur_sell:
+                sell = buy + p
+                p2 = p
+        return p1, p2, sell
+
+if __name__ == '__main__':
+    s = Solution()
+    prices = [7,2,5,3,6,4]
+    print(s.maxProfit3(prices))
