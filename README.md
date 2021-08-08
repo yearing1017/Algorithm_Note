@@ -171,6 +171,7 @@
 | # | 二叉树深度 | Python | [tree_depth.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/tree_depth.py) |
 | # | 二叉树路径所有代表数字的和 | Python | [all_roads_num_sum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/all_roads_num_sum.py) |
 | # | 二叉树根到叶子节点目标和的路径 | Python | [root_leaf_sum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/root_leaf_sum.py) |
+| # | 二叉树中是否存在节点和为指定值的路径 | Python | [is_root_leaf_sum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/is_root_leaf_sum.py) |
 | # | 二叉树的最大路径和 | Python | [max_road_sum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/max_road_sum.py) |
 | # | 判断二叉树是否对称 | Python | [is_duichen.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/is_duichen.py) |
 | # | 二叉树的镜像 | Python | [mirrortree.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/mirrortree.py) |

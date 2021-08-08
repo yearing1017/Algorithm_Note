@@ -30,3 +30,36 @@ class Solution:
             
         helper(0, [])
         return res
+
+
+"""
+给定一个可包含重复数字的序列 nums ，按任意顺序 返回所有不重复的全排列。
+
+输入：nums = [1,1,2]
+输出：
+[[1,1,2],
+ [1,2,1],
+ [2,1,1]]
+"""
+
+class Solution:
+    def permuteUnique2(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        if not nums:
+            return res
+        n = len(nums)
+        vis = [0 for _ in range(n)]
+
+        def helper(length, temp):
+            if length == n:
+                if temp not in res:
+                    res.append(list(temp))
+            for i in range(n):
+                if vis[i]:
+                    continue
+                vis[i] = 1
+                helper(length+1, temp + [nums[i]])
+                vis[i] = 0
+        
+        helper(0, [])
+        return res
