@@ -18,7 +18,7 @@ class RotationStr:
     def is_rotation(cls, str1, str2):
         if len(str1) != len(str2):
             return False
-
+        
         str1 = str1 * 2
         # 这里如果不用系统调用，那么就用KMP
         # 找到str2在str1的开始位置

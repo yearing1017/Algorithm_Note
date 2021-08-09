@@ -45,6 +45,17 @@ class JosephusCircle:
         return node
 
     @classmethod
+    def kill(cls, n, m):
+        # n 表示从1到n的n个人  m代表从1开始报数 每轮报到m的人离开
+        i = 0
+        a = list(range(1, n+1))
+        while len(a) > 1:
+            # 每轮pop一个数之后，后面的数的index继承了 pop的数的索引
+            i = (i + m - 1) % len(a)
+            a.pop(i)
+        return a[0]
+
+    @classmethod
     def kill_1_1(cls, head, m):
         if head is None or head.next is head or m < 1:
             return head
