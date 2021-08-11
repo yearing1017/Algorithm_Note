@@ -7,6 +7,43 @@ arr=[100, 4, 200, 1, 3, 2]，最长的连续序列为[1, 2, 3, 4]，所以返回
 
 class LongestSeq:
     @classmethod
+    def get_longest_sequce_from_arr1(cls, arr):
+        # 方法1  找起始数 再从起始数开始找最长的序列
+        arr = set(arr)
+        res = 0
+        for num in arr:
+            if num - 1 in arr:
+                continue
+            # 找到最长序列的起始数
+            start = num
+            while start in arr:
+                start += 1
+            res = max(res, start - num)
+        return res
+
+    
+    @classmethod
+    def get_longest_sequce_from_arr2(cls, nums):
+        hash_dict = dict()
+        # key是数  value是该数所在序列的最长长度
+        max_length = 0
+        for num in nums:
+            if num not in hash_dict:
+                left = hash_dict.get(num - 1, 0)
+                right = hash_dict.get(num + 1, 0)
+                
+                cur_length = 1 + left + right
+                if cur_length > max_length:
+                    max_length = cur_length
+                
+                hash_dict[num] = cur_length
+                hash_dict[num - left] = cur_length
+                hash_dict[num + right] = cur_length
+                
+        return max_length
+
+
+    @classmethod
     def get_longest_sequce_from_arr(cls, arr):
         if not arr:
             return 0
@@ -31,6 +68,8 @@ class LongestSeq:
         dic[left] = length
         dic[right] = length
         return length
+
+    
 
 if __name__ == '__main__':
     print(LongestSeq.get_longest_sequce_from_arr([100, 4, 200, 1, 3, 2]))

@@ -6,13 +6,13 @@
 输入：nums = [1,2,3]
 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 """
-class Solution:
+class Solution1:
     def subsets(self, nums):
         res = []
         n = len(nums)
         def helper(i, temp):
+            res.append(temp)
             for j in range(i, n):
-                res.append(temp)
                 # 每次都是将当前的temp去和他后面的元素组合
                 helper(j+1, temp + [nums[j]])
         helper(0, [])
@@ -25,7 +25,7 @@ class Solution:
 输出：[[],[1],[1,2],[1,2,2],[2],[2,2]]
 """
 class Solution:
-    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+    def subsetsWithDup(self, nums):
         res = []
         n = len(nums)
         # 不排序会出现[4,1] [1,4]这样的组合
@@ -37,3 +37,8 @@ class Solution:
                 helper(j+1, temp + [nums[j]])
         helper(0, [])
         return res
+
+if __name__ == "__main__":
+    s = Solution1()
+    nums = [1,2,3]
+    print(s.subsets(nums))

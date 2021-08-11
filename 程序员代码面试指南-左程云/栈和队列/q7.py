@@ -34,7 +34,7 @@ class MaxValueOFWindow:
                 deque.pop()
             deque.append(index)
             # 队头的下标过期了 即 不在大小为k的窗口内
-            if deque[-1] - deque[0] == window:
+            if deque[-1] - deque[0] >= window:
                 deque.pop(0)
             # 遍历到大小为k的窗口时
             if index >= window - 1:
