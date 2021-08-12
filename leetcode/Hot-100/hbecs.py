@@ -44,6 +44,7 @@ class Solution:
         if not t1.right and t2.right:
             t1.right = t2.right
         return t1
+    
     # 合并到新的树上
     def mergeTrees2(self, t1:TreeNode, t2:TreeNode):
         if not t1: return t2

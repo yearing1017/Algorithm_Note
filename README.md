@@ -230,6 +230,7 @@
 | # | 数组中未出现的最小正整数 | Python | [mindisappear.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/mindisappear.py) |
 | # | 矩阵最长递增路径 | Python | [jzzcdzlj.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/jzzdzclj.py) |
 | # | 旋转数组 | Python | [xzsz.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/xzsz.py) |
+| # | 矩阵乘法 | Python | [jzcf.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/jzcf.py) |
 
 
 
