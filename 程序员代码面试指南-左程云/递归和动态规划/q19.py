@@ -13,16 +13,32 @@ arr[0]=3,选择跳到位置2；arr[2]=3,可以跳到最后的位置，所以返�
 
 
 class JumpSteps:
+
+    @classmethod
+    def judge(cls, arr):
+        # 仅判断是否可以达到最远位置
+        max_pos = 0 # 最远达到的位置
+        for i in range(len(arr)):
+            # 判断是否可以达到 i位置 或更远
+            if max_pos >= i and i + arr[i] >= max_pos:
+                max_pos = i + arr[i]
+        return max_pos >= len(arr) - 1
+
+
     @classmethod
     def get_steps(cls, arr):
         if not arr:
             return 0
 
         jump = 0
-        cur_pos = 0
+        cur_pos = 0 # cur_pos代表如果只跳step步 最远达到的位置
         next_pos = 0
 
         for i in range(len(arr)):
+            if cur_pos >= len(arr):
+                break
+            # cur >=i 说明跳step步可以到达当前及更远
+            # cur < i 说明需要多跳一步 才能到达当前及更远
             if cur_pos < i:
                 jump += 1
                 cur_pos = next_pos
