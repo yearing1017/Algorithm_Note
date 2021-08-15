@@ -20,4 +20,20 @@ class Solution:
         # 后续每个dp[i]的计算方法：比较dp[i-1](偷i-1) 和 dp[i-2]+nums[i]（不偷i-1）
         for i in range(2, n):
             dp[i] = max(dp[i-2]+nums[i], dp[i-1])
-        return dp[-1] 
+        return dp[-1]
+
+    # 优化空间 只用前两个元素即可
+    def rob2(self, nums: List[int]) -> int:
+        # 优化空间 只用前两个元素即可
+        if not nums: return 0
+        n = len(nums)
+        
+        prepre = 0
+        pre = 0
+        now = 0
+
+        for i in range(n):
+            now = max(prepre + nums[i], pre)
+            prepre = pre
+            pre = now
+        return now

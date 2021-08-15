@@ -13,13 +13,15 @@ class Solution:
 
     def maxProfit2(self, prices):
         # buy和sell都代表操作之后手里的钱
-        buy, sell = -float("inf"), 0
+        buy, sell, res = -float("inf"), 0, 0
         for p in prices:
             # 只有一次买入卖出 所以是0-p
             # sell的状态肯定是由buy的状态转来
             buy = max(buy, 0 - p)
             sell = max(sell, buy + p)
-        return sell
+            if sell > 0:
+                res += 1
+        return res
 
     def maxProfit3(self, prices):
         # buy和sell都代表操作之后手里的钱
@@ -41,5 +43,5 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    prices = [7,2,5,3,6,4]
-    print(s.maxProfit3(prices))
+    prices = [1,2,3]
+    print(s.maxProfit2(prices))
