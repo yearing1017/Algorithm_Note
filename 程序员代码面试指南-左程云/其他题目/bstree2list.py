@@ -5,7 +5,32 @@
     2. 根据中序遍历结果，将right视作双向链表中的next指针，left视为双向链表中的last指针
 '''
 class Solution:
-    def Convert(self , pRootOfTree):
+
+    def Convert1(self, root):
+        # 中序递归遍历 调整指针
+        def dfs(cur):
+            if not cur: return
+            dfs(cur.left)
+            # 最开始没有pre结点时
+            if not self.pre:
+                self.head = cur
+            else:
+                self.pre.right = cur
+                cur.left = self.pre
+            self.pre = cur
+            dfs(cur.right)
+
+        if not root: return
+        self.head = None
+        self.pre = None
+        dfs(root)
+        # 若题目要求 双向循环链表 最后需要处理一下 头尾
+        # self.head.left = self.pre
+        # self.pre.right = self.head
+        return self.head
+
+
+    def Convert2(self , pRootOfTree):
         if not pRootOfTree:
             return pRootOfTree
         
@@ -21,8 +46,6 @@ class Solution:
             pre = cur
         pre.right = None
         return head
-
-
 
     def visit_mid_order(self, pRootOfTree, queue):
         if pRootOfTree.left:

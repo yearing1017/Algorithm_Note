@@ -25,7 +25,8 @@ class LongestSumOfSubArray:
         i = 0
         total = 0
         max_len = 0
-        sum_map = dict()
+        # key表示从arr最左边开始累加过程中出现的sum值  value是sum值最早出现的位置
+        sum_map = dict() # map只记录每一个累加和最早出现的位置
         sum_map.setdefault(0,-1)
         while i < len(arr):
             total += arr[i]

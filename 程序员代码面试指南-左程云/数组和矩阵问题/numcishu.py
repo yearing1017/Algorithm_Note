@@ -3,7 +3,7 @@
 def GetNumberOfK(data, k):
     low = getlow(data,k)
     high = gethigh(data,k)
-    return low - high + 1
+    return high - low + 1
 
 def getlow(data, k):
     l = 0

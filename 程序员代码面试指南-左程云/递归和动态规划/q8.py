@@ -27,7 +27,7 @@
 class Solution:
     def maxLetters(self , letters ):
         # write code here
-        # x表示letters中的元组，x[0]表示安照元组里的第一个元素排序，-x[1]按照列表中第二个元素倒着排序 
+        # x表示letters中的元组，x[0]表示安照元组里的第一个元素升序排序，-x[1]当第一个元素相等时按照第二个元素降序 
         letters.sort(key=lambda x:(x[0],-x[1]))
         ends = [1 for _ in range(len(letters))]
         ends[0] = letters[0][1]
@@ -48,3 +48,17 @@ class Solution:
             right = max(right, l)
             ends[l] = letters[i][1]
         return right + 1
+
+    # 超时
+    def maxEnvelopes(self, arr: List[List[int]]) -> int:
+        n = len(arr)
+        arr.sort(key=lambda x: (x[0], -x[1]))
+        nums = [i[1] for i in arr]
+        dp = [1] * n
+        res = 0
+        for i in range(n):
+            for j in range(i):
+                if nums[j] < nums[i]:
+                    dp[i] = max(dp[i], dp[j] + 1)
+            res = max(res, dp[i])
+        return res

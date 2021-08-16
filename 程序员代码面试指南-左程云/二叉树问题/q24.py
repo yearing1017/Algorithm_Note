@@ -22,12 +22,13 @@ class BCTNodeCounter:
     # bs函数的返回值表示以node为头节点的完全二叉树的节点是多少
     @classmethod
     def bs(cls, node, l, h):
-        # 当前node所在层数 == 树的高度
+        # l表示当前node所在层数 == 树的高度
         if l == h:
             return 1
-        #node右子树的最左节点到达最后一层 说明node的整个左子树是完全二叉树
+        #node右子树的最左节点到达最后一层 说明node的整个左子树是满二叉树 
         if cls.get_most_left_level(node.right, l+1) == h:
             return 2**(h-l) + cls.bs(node.right, l+1, h)
+        #node右子树的最左节点没到达最后一层 说明node的整个右子树是满二叉树
         else:
             return 2**(h-l-1) + cls.bs(node.left, l+1, h)
         
