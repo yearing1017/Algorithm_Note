@@ -110,6 +110,7 @@
 | 5 | 用一个栈实现另一个栈的排序 | Python | [q5.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q5.py) |
 | 7 | 生成窗口最大值数组 | Python | [q7.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q7.py) |
 | 8 | 单调栈问题 | Python | [q8.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q8.py) |
+| # | 栈和排序 | Python | [stackRank.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/stackRank.py) |
 
 <a id="list"></a>
 
@@ -143,6 +144,7 @@
 | # | 两个链表的第一个公共结点 | Python | [detectCycle_3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
 | # | 链表的奇偶重排 | Python | [oddeven.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/oddeven.py) |
 | # | 重排链表 | Python | [headtail.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/headtail.py) |
+| # | 划分链表 | Python | [segList.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/segList.py) |
 
 <a id="tree"></a>
 
@@ -274,6 +276,7 @@
 | # | 两个字符串代表的整数相加 | Python | [strsum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strsum.py) |
 | # | 字符串逆置大小写转换 | Python | [strtrans.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strtrans.py) |
 | # | 字符串出现的TopK问题 | Python | [strTopk.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strTopk.py) |
+| # | 字符串出现的TopK问题 | Python | [compare_ver.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/compare_ver.py) |
 
 
 
@@ -310,7 +313,7 @@
 | # | 比特位计数 | Python | [btnum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/btnum.py) |
 | # | 二分查找 | Python | [bisearch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bisearch.py) |
 | # | 大数加法 | Python | [bigAdd.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bigAdd.py) |
-
+| # | 最大公约数 | Python | [maxGys.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/maxGys.py) |
 
 
 
