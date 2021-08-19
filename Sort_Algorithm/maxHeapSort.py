@@ -45,7 +45,7 @@ class Solution(object):
             self.swap(nums, 0, heapsize-1)
             heapsize -= 1
             self.maxHeapify(nums, 0, heapsize)
-        return nums[:-(k+1):-1]
+        return nums[-1:-(k+1):-1]
 
     def heapSort(self, nums):
         # 完整的堆排序

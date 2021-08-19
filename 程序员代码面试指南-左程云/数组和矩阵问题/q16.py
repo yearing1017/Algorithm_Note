@@ -31,7 +31,7 @@ class MaxSum:
             return 0
         cur = 0
         max_sum = arr[0]
-        for i in range(1, len(arr)):
+        for i in range(len(arr)):
             cur += arr[i]
             max_sum = max(cur, max_sum)
             cur = 0 if cur < 0 else cur
