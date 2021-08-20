@@ -55,6 +55,7 @@ class SubSeqFinder:
         # i，j位置对应三种情况
         for i in range(1, len(s1)):
             for j in range(1, len(s2)):
+                # 只可能来自下面三种情况 最终取三者最大的值
                 # 当末尾元素不等时，可能来自上方和左方
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
                 # 末尾元素相等时，也可能等于左上方的+1
