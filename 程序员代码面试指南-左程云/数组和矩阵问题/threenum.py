@@ -7,13 +7,12 @@ def threeSum(num):
     num.sort()
 
     for i in range(length):
-        
+        # 当前大于0 不需要再考虑之后的
         if num[i] > 0: break
-
+        # 和前一个一样的 去重
         if i > 0 and num[i] == num[i-1]:
             continue
-
-        num.sort()
+        # 每轮以i位置的数字为基准，遍历后面的数字组合
         L = i+1
         R = length-1
 
