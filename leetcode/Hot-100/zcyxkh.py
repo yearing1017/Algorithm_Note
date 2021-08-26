@@ -28,7 +28,7 @@ class Solution:
                 elif (i - dp[i-1] > 0) and s[i-1] == ")":
                     # 此处的 = 可以不用 因为等于0 相当于前面只有一个括号
                     if (i - dp[i-1] -2) >= 0:
-                        dp[i] = dp[i - dp[i-2] -2] + dp[i-1] + 2
+                        dp[i] = dp[i - dp[i-1] -2] + dp[i-1] + 2
                     else:
                         dp[i] = dp[i-1] + 2
             max_len = max(max_len, dp[i])

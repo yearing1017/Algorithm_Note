@@ -16,7 +16,7 @@ class Solution:
         # 时间复杂度和空间复杂度都为O(m * n)的方法
         dp = [[0 for _ in range(n)]for _ in range(m)]
         # dp[i][j] 代表走到(i,j)位置的路径数
-        # 初始化 第一行 和 第一列 都是1 因为只能向左 向右 
+        # 初始化 第一行 和 第一列 都是1 因为只能 向右   向下
         for i in range(m):
             dp[i][0] = 1
         for j in range(n):

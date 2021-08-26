@@ -9,7 +9,7 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         # 先按照每个单个区间的左端点升序排列
-        intervals.sort(k=lambda x: x[0])
+        intervals.sort(key = lambda x: x[0])
         # 依次遍历当前区间和 merged 的最后一个区间的右端点
         merged = []
         for interval in intervals:

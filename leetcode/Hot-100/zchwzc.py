@@ -31,7 +31,7 @@ class Solution:
                         dp[i][j] = dp[i+1][j-1]
                 
                 # 每次判断完dp[i][j] 都记录一下最长长度
-                if d[i][j]:
+                if dp[i][j]:
                     cur_len = j - i + 1
                     if cur_len > max_len:
                         max_len = cur_len

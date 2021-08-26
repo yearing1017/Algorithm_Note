@@ -333,7 +333,7 @@
 | 21 | 合并两个有序链表 | Python | [21.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hblgyxlb.py) |
 | 22 | 括号生成 | Python | [22.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/khsc.py) |
 | 23 | 合并K个升序链表 | Python | [23.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/hbkgsxlb.py) |
-| 31 | 下一个排列 | Python | [31.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/xygpl.py) |
+| 31 | 下一个排列* | Python | [31.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/xygpl.py) |
 | 32 | 最长有效括号 | Python | [32.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/zcyxkh.py) |
 | 33 | 搜索旋转排序数组 | Python | [33.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/ssxzpxsz.py) |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | Python | [34.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/leftandright.py) |
