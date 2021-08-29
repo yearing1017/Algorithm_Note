@@ -16,8 +16,8 @@ class Solution:
                 stack.append(cur)
                 cur = cur.left
             else:
-                cur = stack.pop()
-                res.append(cur.val)
+                node = stack.pop()
+                res.append(node.val)
                 # 中序遍历 根 右
-                cur = cur.right
+                cur = node.right
         return res
