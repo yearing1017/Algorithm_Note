@@ -18,6 +18,6 @@ class Solution:
         if not root:
             return 0
         res = 10*res + root.val
-        if not root.left and root.right:
+        if not root.left and not root.right:
             return res
         return self.preorder(root.left, res) + self.preorder(root.right, res)

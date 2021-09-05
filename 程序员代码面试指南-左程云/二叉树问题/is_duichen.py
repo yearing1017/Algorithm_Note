@@ -20,7 +20,7 @@ class Solution:
         return self.recur(root.left, root.right)
     
     def recur(self, L, R):
-        if not L or not R:
+        if not L and not R:
             return True
         elif not L or not R or L.val != R.val:
             return False
