@@ -9,3 +9,16 @@ class Solution:
     def maxDepth(self, root):
         if not root: return 0
         return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+
+    def maxDepth_2(self, root):
+        queue = [root]
+        cnt =  0
+        while queue:
+            cnt += 1
+            for _ in range(len(queue)):
+                cur = queue.pop(0)
+                if cur.left:
+                    queue.append(cur.left)
+                if cur.right:
+                    queue.append(cur.right)
+        return cnt

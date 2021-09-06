@@ -360,7 +360,7 @@
 | 104 | 二叉树的最大深度 | Python | [104.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/ecsdzdsd.py) |
 | 105 | 从前序和中序遍历序列构建二叉树 | Python | [105.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
 | 108 | 将有序数组转换为二叉搜索树 | Python | [108.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/arr2bst.py) |
-| 114 | 二叉树展开为链表 | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/tree2list.py) |
+| 114 | 二叉树展开为链表* | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/tree2list.py) |
 | 121 | 买卖股票的最佳时机 | Python | [121.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
 | 128 | 最长连续序列 | Python | [128.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zclxxl.py) |
 | 136 | 只出现一次的数字 | Python | [136.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/cxycdsz.py) |
