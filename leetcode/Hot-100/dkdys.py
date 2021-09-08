@@ -32,5 +32,3 @@ class Solution:
             return self.quick_sort(arr, l+1, right, k)
         else:
             return self.quick_sort(arr, left, l-1, k)
-        return -1
-

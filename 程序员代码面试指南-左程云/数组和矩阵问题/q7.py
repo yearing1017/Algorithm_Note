@@ -20,7 +20,7 @@ class NumberFinder:
     def find_num_in_matrix(cls, matrix, num):
         rows = len(matrix)
         cols = len(matrix[0])
-
+        # 右上角开始找
         row = 0
         col = cols - 1
         while row < rows and col >= 0:

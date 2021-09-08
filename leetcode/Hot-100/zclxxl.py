@@ -32,3 +32,41 @@ class Solution:
         dic[left] = cur_len
         dic[right] = cur_len
         return cur_len
+
+
+class Solution2:
+    def MLS(self , arr ):
+        # leetcode上会超时
+        # 方法1  找起始数 再从起始数开始找最长的序列
+        arr = set(arr)
+        res = 0
+        for num in arr:
+            if num - 1 in arr:
+                continue
+            # 找到最长序列的起始数
+            start = num
+            while start in arr:
+                start += 1
+            res = max(res, start - num)
+        return res
+
+class Solution3:
+    def longestConsecutive(self, nums: List[int]) -> int:
+      
+        hash_dict = dict()
+        # key是数  value是该数所在序列的最长长度
+        max_length = 0
+        for num in nums:
+            if num not in hash_dict:
+                left = hash_dict.get(num - 1, 0)
+                right = hash_dict.get(num + 1, 0)
+                
+                cur_length = 1 + left + right
+                if cur_length > max_length:
+                    max_length = cur_length
+                
+                hash_dict[num] = cur_length
+                hash_dict[num - left] = cur_length
+                hash_dict[num + right] = cur_length
+                
+        return max_length
