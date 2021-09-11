@@ -276,7 +276,8 @@
 | # | 两个字符串代表的整数相加 | Python | [strsum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strsum.py) |
 | # | 字符串逆置大小写转换 | Python | [strtrans.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strtrans.py) |
 | # | 字符串出现的TopK问题 | Python | [strTopk.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/strTopk.py) |
-| # | 字符串出现的TopK问题 | Python | [compare_ver.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/compare_ver.py) |
+| # | 比较版本号 | Python | [compare_ver.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/compare_ver.py) |
+| # | 最长重复子串 | Python | [most_repeat_str.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/字符串问题/most_repeat_str.py) |
 
 
 
