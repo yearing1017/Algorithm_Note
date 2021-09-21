@@ -6,11 +6,12 @@
     （1，2，3） 6  ===>  3枚
 """
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def coinChange(self, coins, amount) -> int:
         # dp[i] 表示组成金额i 所需最少的硬币数
         dp = [float('inf')] * (amount + 1)
         dp[0] = 0
         # dp(i) = min(dp(i-cj)) + 1; cj代表枚举的最后一枚硬币的金额 需要从这个状态转移归来  在加上这枚硬币的1
+        # 依次遍历加上该种硬币凑的话 最小需要几块金币
         for coin in coins:
             for i in range(coin, amount+1):
                 # 依次根据前面的dp[0] ~ dp[i-1] 来计算当前的dp[i]
