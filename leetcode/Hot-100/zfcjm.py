@@ -13,9 +13,9 @@ class Solution:
     def decodeString(self, s: str) -> str:
         # 分别考虑 数字 [ ] 字母 四种情况  
         stack = []
-        # 每次遇到的新数字
+        # multi 记录每次遇到的新的数字转为十进制
         multi = 0
-        res = ''
+        res = '' 
         # 分解因式  每段每段的运算
         for i in s:
             # 左括号：说明遇到了新的一个字母序列  先保存上一个运算好的序列 再需要重置res为空 以保存新的这个序列
