@@ -20,7 +20,7 @@ sumlist[]记录当前路径上的和，在如下样例中：
 因此，只需计算每一步中，sum在数组sumlist中出现的次数，然后与每一轮递归的结果相加即可
 """
 class Solution:
-    def pathSum(self, root: TreeNode, sum: int) -> int:
+    def pathSum(self, root, sum) -> int:
         def dfs(root, sumlist):
             # 递归终止条件
             if not root: return 0
