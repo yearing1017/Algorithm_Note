@@ -6,7 +6,7 @@
     解释：数组可以分割成 [1, 5, 5] 和 [11]
 """
 class Solution:
-    def canPartition(self, nums: List[int]) -> bool:
+    def canPartition(self, nums) -> bool:
         # 问题转化为：能否在数组中找到若干数的和 等于 总和的一半
         m = len(nums)
         total = sum(nums)
@@ -22,7 +22,7 @@ class Solution:
         # m行表示m个数 target+1列 表示从和 等于 0 开始
         dp = [[False for _ in range(target+1)] for _ in range(m)]
 
-        # 边界1：第一列的初始化  nums[0...i]中是否存在 若干数 和 等于 0 存在  不选择任何数 和 就等于0
+        # 边界1：第一列的初始化  nums[0...i]中是否存在 若干数 和 等于0； 存在：即不选择任何数 那么和就等于0
         for i in range(m):
             dp[i][0] = True
         # 边界2：第一行第二列  当i==0时 只有一个正整数 nums[0]可以选取 所以该位置为true
