@@ -40,8 +40,8 @@ class Solution:
                 else:
                     # 三种情况取最小 + 1
                     # 情况1：word1:xxxxE word2:xxxxF 替换尾部字符 说明等于前面字符的转换次数 + word1的1次替换次数
-                    # 情况2：word1:xxxD  word2:xxx   删除word1的尾部字符  说明等于前面字符的转换次数 + word1的1次删除次数
-                    # 情况3：word1:xxx  word2:xxxD   word1尾部添加字符   说明等于前面字符的转换次数 + word1的1次添加次数
+                    # 情况2：word1:xxx  word2:xxxD   word1尾部添加字符   说明等于前面字符的转换次数 + word1的1次添加次数
+                    # 情况3：word1:xxxD  word2:xxx   删除word1的尾部字符  说明等于前面字符的转换次数 + word1的1次删除次数
                     dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1
         return dp[-1][-1]
 
