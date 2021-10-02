@@ -1,11 +1,15 @@
-# 统计一个数字在升序数组中出现的次数
-# 例如 [1,2,3,3,3,3,4,5],3  返回4
-def GetNumberOfK(data, k):
+# 统计一个数字在升序数组中出现的起始下标
+# 例如 [1,2,3,3,3,3,4,5],3  返回[2, 5]
+
+def search(data, k):
     low = getlow(data,k)
-    print(low)
     high = gethigh(data,k)
-    print(high)
-    return high - low + 1
+    if low < 0 or high >= len(data):
+        return [None, None]
+    elif data[low] != k or data[high] != k:
+        return[None, None]
+    else:
+        return [low, high]
 
 # 获取到 target第一次出现的下标 若数字大于最大的 则返回len(nums)
 def getlow(data, k):
@@ -31,6 +35,6 @@ def gethigh(data, k):
             r = mid - 1
     return r
 
-nums = [1,2,3,3,3,3,3,3]
-k = 3
-print(GetNumberOfK(nums, k))
+nums = [1,2,3,3,3,3,3,3,5,6]
+k = 5
+print(search(nums, k))

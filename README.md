@@ -223,7 +223,9 @@
 | 22 | 不包含本位置值的累乘数组 | Python | [q22.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q22.py) |
 | 25 | 数组中未出现的最小正整数 | Python | [q25.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q25.py) |
 | 31 | 容器盛水问题 | Python | [q31.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q31.py) |
-| # | 有序数组找到和为目标值的两个数 | Python | [twoSum.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/twoSum.py) |
+| # | 二分查找目标值(无重复) | Python | [efcz1.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/efcz1.py) |
+| # | 二分查找第一个等于目标值的下标 | Python | [efcz2.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/efcz2.py) |
+| # | 二分查找是否存在和为目标值的两个数 | Python | [efcz3.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/efcz3.py) |
 | # | 合并两个有序数组 | Python | [merge2arr.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/merge2arr.py) |
 | # | 螺旋矩阵 | Python | [lxmatrix.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/lxmatrix.py) |
 | # | 升序数组中数字出现的次数 | Python | [numcishu.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/numcishu.py) |

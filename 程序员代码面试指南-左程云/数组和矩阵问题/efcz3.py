@@ -17,6 +17,7 @@ def twoSum(nums, target):
             j = m - 1
             if j <= 0:
                 return False
+    # j代表 第一个不等于target 且 最接近的数的 下标
     max_val = nums[j]
 
     if max_val < target // 2:
