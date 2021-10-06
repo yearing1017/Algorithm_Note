@@ -38,3 +38,22 @@ def gethigh(data, k):
 nums = [1,2,3,3,3,3,3,3,5,6]
 k = 4
 print(search(nums, k))
+
+# 方法二 复用一个左边界的代码
+class Solution:
+    def searchRange(self, nums, target):
+
+        def bisect_left(num):
+            left, right = 0, len(nums) - 1
+            while left <= right:
+                mid = (left + right) // 2
+                if num <= nums[mid]:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            return left
+
+        begin = bisect_left(target)
+        if begin == len(nums) or nums[begin] != target:
+            return [-1, -1]
+        return [begin, bisect_left(target + 1) - 1]

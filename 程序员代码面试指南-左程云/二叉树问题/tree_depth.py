@@ -15,6 +15,7 @@ class Solution:
         return max(left_d, right_d) + 1
     
     def maxDepth_2(self, root):
+        if not root: return 0
         queue = [root]
         cnt =  0
         while queue:
