@@ -4,10 +4,10 @@
 def search(data, k):
     low = getlow(data,k)
     high = gethigh(data,k)
-    if low < 0 or high >= len(data):
-        return [None, None]
+    if not 0 <= low < len(data) or not 0 <= high < len(data):
+        return [-1, -1]
     elif data[low] != k or data[high] != k:
-        return[None, None]
+        return[-1, -1]
     else:
         return [low, high]
 
@@ -36,5 +36,5 @@ def gethigh(data, k):
     return r
 
 nums = [1,2,3,3,3,3,3,3,5,6]
-k = 5
+k = 4
 print(search(nums, k))
