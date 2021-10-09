@@ -25,7 +25,7 @@ class Solution:
                     else:
                         dp[i] = 0 + 2
                 # 情况2 ”()(())” 两个右括号紧挨着
-                elif (i - dp[i-1] > 0) and s[i-1] == ")":
+                elif (i - dp[i-1] > 0) and s[i-dp[i-1]-1] =='(':
                     # 此处的 = 可以不用 因为等于0 相当于前面只有一个括号
                     if (i - dp[i-1] -2) >= 0:
                         dp[i] = dp[i - dp[i-1] -2] + dp[i-1] + 2
