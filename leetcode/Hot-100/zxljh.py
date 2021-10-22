@@ -8,8 +8,9 @@
 """
 import copy
 class Solution:
-    def minPathSum(self, grid: [[int]]) -> int:
-        # 深拷贝 一份 直接在原地修改
+    def minPathSum(self, grid) -> int:
+         # 直接在grid修改 O(M*N) O(1)
+        # 深拷贝 一份 再修改 O(M*N) O(M*N)
         grid_copy = copy.deepcopy(grid)
         for i in range(len(grid_copy)):
             for j in range(len(grid_copy[0])):
