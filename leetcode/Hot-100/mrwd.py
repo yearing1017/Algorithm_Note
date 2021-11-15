@@ -17,7 +17,7 @@ class Solution:
                 index = stack.pop()
                 # 计算最近的大于栈顶的 离它的距离
                 res[index] = i - index
-            # 找到大的 先出大的 再入   若小于栈顶 直接入
+             # 找到大的 先出当前栈中小的 再入   若小于栈顶 直接入
             stack.append(i)
         return res
 
