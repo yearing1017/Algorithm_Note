@@ -68,11 +68,8 @@ class MaxSubSeq:
         while temp>=0:
             # 依次倒序找到最先出现符合条件的值 加入结果 若再碰见 continue
             if arr[temp] < arr[index] and dp[temp] == dp[index] -1:
-                if arr[temp] in res:
-                    continue
-                else:
-                    res.insert(0, arr[temp])
-                    index = temp
+                res.insert(0, arr[temp])
+                index = temp
             temp -= 1
         return res
 
@@ -118,5 +115,5 @@ class MaxSubSeq:
     
 
 if __name__ == '__main__':
-    print(MaxSubSeq.get_res_list_1([1,2,3,5,8,6,4]))
-    print(MaxSubSeq.get_res_list_2([1,2,3,5,8,6,4]))
+    print(MaxSubSeq.get_res_list_1([1,2,8,6,4,4,3]))
+    print(MaxSubSeq.get_res_list_2([1,2,8,6,4,4,3]))

@@ -18,6 +18,28 @@ class Solution1:
                 helper(j+1, temp + [nums[j]])
         helper(0, [])
         return res
+
+class Solution2:
+    def subsets(self, nums):
+        t = []
+        res = []
+        
+        def dfs(cur, nums):
+            if cur == len(nums):
+                res.append(list(t))
+                return
+            # 考虑当前位置
+            t.append(nums[cur])
+            dfs(cur+1, nums)
+            t.pop() # 回溯
+            # 不考虑当前位置 直接递归
+            dfs(cur+1, nums)
+        #A.sort()
+        dfs(0, nums)
+        return res
+
+
+
 '''
 """
 给你一个整数数组 nums ，其中可能包含重复元素，请你返回该数组所有可能的子集（幂集）。

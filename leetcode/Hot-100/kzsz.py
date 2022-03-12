@@ -6,7 +6,7 @@
 """
 
 class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
+    def subarraySum(self, nums, k):
         # 前缀和字典 代表该和对应的数量
         preSumDic = {0:1}
         cur_sum = 0
@@ -19,4 +19,12 @@ class Solution:
             # 没有 则添加1  有 就更新; 
             preSumDic[cur_sum] = preSumDic.get(cur_sum, 0) + 1
             # 这样就会把所有子数组的前缀和 添加进来  只有curcur_sum - k存在 则存在几个和为k的子数组
-        return count
+        return preSumDic, count
+
+if __name__ == '__main__':
+    nums = [1,2,3,2]
+    k = 3
+    slove = Solution()
+    dic, cnt = slove.subarraySum(nums, k)
+    print(dic)
+    print(cnt)

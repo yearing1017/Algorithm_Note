@@ -318,6 +318,7 @@
 | # | 二分查找 | Python | [bisearch.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bisearch.py) |
 | # | 大数加法 | Python | [bigAdd.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/bigAdd.py) |
 | # | 最大公约数 | Python | [maxGys.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/maxGys.py) |
+| # | 最长连续相同字符子串长度 | Python | [max_same_str.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/max_same_str.py) |
 
 
 
@@ -428,6 +429,7 @@
 | 27 | 移除元素 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 | 35 | 搜索插入位置 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 | 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 41 | 缺失的第一个正数 | Python | [41.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/random/qsddygzs.py) |
 | 50 | Pow(x,n) | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9814-2.md) |
 | 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
 | 53 | 最大子序和 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
