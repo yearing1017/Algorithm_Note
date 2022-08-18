@@ -25,5 +25,28 @@ public:
         inorder(root, res);
         return res;
     }
+
+    //非递归
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        stack<TreeNode*> stk;
+        TreeNode* node;
+        TreeNode* cur = root;
+        while (!stk.empty() || cur != nullptr) {
+            if (cur != nullptr) {
+                stk.push(cur);
+                cur = cur->left;
+            } else {
+                node = stk.top();
+                stk.pop();
+                res.push_back(node->val);
+                cur = node->right;
+            }
+
+        }
+        return res;
+    }
+
+
 };
 
