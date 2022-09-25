@@ -15,7 +15,7 @@ class Solution:
         while fast.next and fast.next.next:
             slow = slow.next
             fast = fast.next.next
-        # 奇数 找到中点  偶数 找到 后半部分的起点
+        # slow 奇数 找到中点  偶数 找到前半部分的终点
         hou_head = slow.next
         slow.next = None
         new_hou_head = self.reverseList(hou_head)
