@@ -7,28 +7,40 @@
 """
 from typing import List
 
-
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        left = self.binarySearch(nums, target, True)
-        right = self.binarySearch(nums, target, False) - 1
-        # 找到之后检验一下是否符合条件
-        if left <= right and right <= len(nums)-1 and nums[left] == target and nums[right] == target:
-            return [left, right]
-        else:
+        if not nums:
+            return [-1,-1]
+        left = self.bi_left(nums, target)
+        right = self.bi_right(nums, target)
+
+        if not 0 <= left < len(nums) or not 0 <= right < len(nums):
             return [-1, -1]
-    # lower 为true代表找第一个位置
-    def binarySearch(self, nums, target, lower):
-        l = 0
-        r = len(nums) - 1
-        # 只有一个数时 [1] 找到第一个大于1的下标为1 再 -1
-        ans = len(nums)
-        while l <= r:
-            mid = (l+r) // 2
-            # 找第一个target 即找到第一个>=target的位置 第二个 即找到 >target的位置 再 -1
-            if (nums[mid] > target) or (lower and nums[mid] >= target):
-                r = mid - 1
-                ans = mid 
+        elif nums[left] != target or nums[right] != target:
+            return [-1, -1]
+        else:
+            return[left, right]
+
+    def bi_left(self, nums, target):
+        # 5,7,7,8,8,10     8
+        i = 0
+        j = len(nums)-1
+        while i <= j:
+            m = (i+j)//2
+            if nums[m] < target:
+                i = m + 1
             else:
-                l = mid + 1
-        return ans
+                j = m - 1
+        return i
+    
+    def bi_right(self, nums, target):
+        # 5,7,7,8,8,10     8
+        i = 0
+        j = len(nums)-1
+        while i <= j:
+            m = (i+j)//2
+            if nums[m] <= target:
+                i = m + 1
+            else:
+                j = m - 1
+        return j

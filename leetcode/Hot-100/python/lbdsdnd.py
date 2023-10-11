@@ -11,6 +11,8 @@ class ListNode:
         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        # 先找规律  倒数第n个结点 = 正数第 len-n+1 个结点
+        # 例如：1 2 3 4 5 6；   6 2 5； 6 3 4； 6 5 2
         cur = head
         #pre = head
         del_node = head
