@@ -12,7 +12,7 @@
 #### [位运算](#bit)
 #### [字符串问题](#str)
 #### [其他问题](#other)
-### [⭐️ Leetcode笔记](#leetcode)
+### [⭐️ Leetcode笔记](#Leetcode)
 ### [📝 算法](#algorithm)
 
 
@@ -322,136 +322,136 @@
 
 
 
-<a id="leetCode"></a>
+<a id="Leetcode"></a>
 
 ## Leetcode刷题笔记
 
 ### Hot-100
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
-| 2 | 两数相加 | Python | [2.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/lsxj.py) |
-| 3 | 无重复字符的最长子串 | Python | [3.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/wcfzczc.py) |
-| 5 | 最长回文子串 | Python | [5.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zchwzc.py) |
-| 12 | 整数转罗马数字 | Python | [12.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zszlm.py) |
-| 17 | 电话号码的字母组合 | Python | [17.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/dhhmzmzh.py) |
-| 19 | 删除链表的倒数第n个结点 | Python | [19.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/lbdsdnd.py) |
-| 21 | 合并两个有序链表 | Python | [21.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hblgyxlb.py) |
-| 22 | 括号生成 | Python | [22.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/khsc.py) |
-| 23 | 合并K个升序链表 | Python | [23.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hbkgsxlb.py) |
-| 31 | 下一个排列* | Python | [31.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/xygpl.py) |
-| 32 | 最长有效括号 | Python | [32.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zcyxkh.py) |
-| 33 | 搜索旋转排序数组 | Python | [33.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/ssxzpxsz.py) |
-| 34 | 在排序数组中查找元素的第一个和最后一个位置 | Python | [34.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/leetcode/Hot-100/python/leftandright.py) |
-| 39 | 组合总和 | Python | [39.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zhzh.py) |
-| 40 | 组合总和II | Python | [40.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zhzh2.py) |
-| 46 | 全排列 | Python | [46.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/qpl.py) |
-| 48 | 旋转图像 | Python | [48.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/xztx.py) |
-| 49 | 字母异位词 | Python | [49.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zmywc.py) |
-| 53 | 最大子序和 | Python | [53.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zdzxh.py) |
-| 55 | 跳跃游戏 | Python | [55.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/tyyx.py) |
-| 56 | 合并区间 | Python | [56.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hbqj.py) |
-| 62 | 不同路径 | Python | [62.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/btlj.py) |
-| 64 | 最小路径和 | Python | [64.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zxljh.py) |
-| 70 | 爬楼梯 | Python | [70.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/plt.py) |
-| 75 | 颜色分类 | Python | [75.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/ysfl.py) |
-| 78 | 子集 | Python | [78.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zj.py) |
-| 79 | 单词搜索 | Python | [79.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/dcss.py) |
-| 81 | 搜索旋转排序数组2 | Python | [81.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/ssxzpxsz2.py) |
-| 94 | 树的中序遍历 | Python | [94.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/zxbl.py) |
-| 96 | 不同的二叉搜索树 | Python | [96.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/btdecsss.py) |
-| 98 | 验证二叉搜索树 | Python | [98.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/yzecsss.py) |
-| 101 | 对称二叉树 | Python | [101.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/dcecs.py) |
-| 102 | 二叉树的层次遍历 | Python | [102.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/ecsdccbl.py) |
-| 104 | 二叉树的最大深度 | Python | [104.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/ecsdzdsd.py) |
+| 2 | 两数相加 | Python | [2.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/lsxj.py) |
+| 3 | 无重复字符的最长子串 | Python | [3.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/wcfzczc.py) |
+| 5 | 最长回文子串 | Python | [5.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zchwzc.py) |
+| 12 | 整数转罗马数字 | Python | [12.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zszlm.py) |
+| 17 | 电话号码的字母组合 | Python | [17.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dhhmzmzh.py) |
+| 19 | 删除链表的倒数第n个结点 | Python | [19.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/lbdsdnd.py) |
+| 21 | 合并两个有序链表 | Python | [21.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hblgyxlb.py) |
+| 22 | 括号生成 | Python | [22.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/khsc.py) |
+| 23 | 合并K个升序链表 | Python | [23.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hbkgsxlb.py) |
+| 31 | 下一个排列* | Python | [31.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/xygpl.py) |
+| 32 | 最长有效括号 | Python | [32.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zcyxkh.py) |
+| 33 | 搜索旋转排序数组 | Python | [33.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ssxzpxsz.py) |
+| 34 | 在排序数组中查找元素的第一个和最后一个位置 | Python | [34.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/Leetcode/Hot-100/python/leftandright.py) |
+| 39 | 组合总和 | Python | [39.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zhzh.py) |
+| 40 | 组合总和II | Python | [40.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zhzh2.py) |
+| 46 | 全排列 | Python | [46.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/qpl.py) |
+| 48 | 旋转图像 | Python | [48.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/xztx.py) |
+| 49 | 字母异位词 | Python | [49.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zmywc.py) |
+| 53 | 最大子序和 | Python | [53.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zdzxh.py) |
+| 55 | 跳跃游戏 | Python | [55.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/tyyx.py) |
+| 56 | 合并区间 | Python | [56.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hbqj.py) |
+| 62 | 不同路径 | Python | [62.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/btlj.py) |
+| 64 | 最小路径和 | Python | [64.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zxljh.py) |
+| 70 | 爬楼梯 | Python | [70.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/plt.py) |
+| 75 | 颜色分类 | Python | [75.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ysfl.py) |
+| 78 | 子集 | Python | [78.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zj.py) |
+| 79 | 单词搜索 | Python | [79.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dcss.py) |
+| 81 | 搜索旋转排序数组2 | Python | [81.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ssxzpxsz2.py) |
+| 94 | 树的中序遍历 | Python | [94.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zxbl.py) |
+| 96 | 不同的二叉搜索树 | Python | [96.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/btdecsss.py) |
+| 98 | 验证二叉搜索树 | Python | [98.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/yzecsss.py) |
+| 101 | 对称二叉树 | Python | [101.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dcecs.py) |
+| 102 | 二叉树的层次遍历 | Python | [102.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ecsdccbl.py) |
+| 104 | 二叉树的最大深度 | Python | [104.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ecsdzdsd.py) |
 | 105 | 从前序和中序遍历序列构建二叉树 | Python | [105.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/rebuild_tree.py) |
-| 108 | 将有序数组转换为二叉搜索树 | Python | [108.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/arr2bst.py) |
-| 114 | 二叉树展开为链表* | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/tree2list.py) |
+| 108 | 将有序数组转换为二叉搜索树 | Python | [108.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/arr2bst.py) |
+| 114 | 二叉树展开为链表* | Python | [114.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/tree2list.py) |
 | 121 | 买卖股票的最佳时机 | Python | [121.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao1.py) |
 | 128 | 最长连续序列 | Python | [128.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/zclxxl.py) |
-| 136 | 只出现一次的数字 | Python | [136.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/cxycdsz.py) |
-| 139 | 单词拆分 | Python | [139.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/dccf.py) |
+| 136 | 只出现一次的数字 | Python | [136.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/cxycdsz.py) |
+| 139 | 单词拆分 | Python | [139.py](/https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dccf.py) |
 | 141 | 环形链表 | Python | [141.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_1.py) |
 | 142 | 环形链表的环形入口结点 | Python | [142.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_2.py) |
-| 148 | 排序链表 | Python | [148.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/pxlb.py) |
-| 152 | 乘积最大子数组 | Python | [152.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/cjzdzsz.py) |
+| 148 | 排序链表 | Python | [148.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/pxlb.py) |
+| 152 | 乘积最大子数组 | Python | [152.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/cjzdzsz.py) |
 | 155 | 最小栈 | Python | [155.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/栈和队列/q1_1.py) |
 | 160 | 相交链表 | Python | [160.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/detectCycle_3.py) |
-| 169 | 多数元素 | Python | [169.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/dsys.py) |
-| 198 | 打家劫舍 | Python | [198.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/djjs.py) |
-| 200 | 岛屿数量 | Python | [200.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/dysl.py) |
+| 169 | 多数元素 | Python | [169.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dsys.py) |
+| 198 | 打家劫舍 | Python | [198.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/djjs.py) |
+| 200 | 岛屿数量 | Python | [200.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dysl.py) |
 | 206 | 反转链表 | Python | [206.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/q4.py) |
-| 207 | 课程表 | Python | [207.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/kcb.py) |
-| 208 | 前缀树 | Python | [208.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/qzs.py) |
-| 213 | 打家劫舍2 | Python | [213.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/djjs2.py) |
-| 215 | 数组中的第K个最大元素 | Python | [215.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/dkdys.py) |
-| 221 | 最大正方形 | Python | [221.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/zdzfx.py) |
-| 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/fzecs.py) |
-| 234 | 回文链表 | Python | [234.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hwlb.py) |
+| 207 | 课程表 | Python | [207.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/kcb.py) |
+| 208 | 前缀树 | Python | [208.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/qzs.py) |
+| 213 | 打家劫舍2 | Python | [213.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/djjs2.py) |
+| 215 | 数组中的第K个最大元素 | Python | [215.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/dkdys.py) |
+| 221 | 最大正方形 | Python | [221.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zdzfx.py) |
+| 226 | 翻转二叉树 | Python | [226.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/fzecs.py) |
+| 234 | 回文链表 | Python | [234.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hwlb.py) |
 | 236 | 二叉树最近公共祖先节点 | Python | [236.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/二叉树问题/q18.py) |
-| 238 | 除自身以外数组的乘积* | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/czsywdcj.py) |
+| 238 | 除自身以外数组的乘积* | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/czsywdcj.py) |
 | 240 | 搜索二维矩阵2 | Python | [240.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/数组和矩阵问题/q7.py) |
-| 279 | 完全平方数 | Python | [279.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/wqpfs.py) |
-| 283 | 移动零 | Python | [283.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/ydl.py) |
-| 297 | 二叉树的序列化与反序列化 | Python | [297.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/xlhyfxlh.py) |
-| 300 | 最长递增子序列 | Python | [300.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/zcdzzxl.py) |
+| 279 | 完全平方数 | Python | [279.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/wqpfs.py) |
+| 283 | 移动零 | Python | [283.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ydl.py) |
+| 297 | 二叉树的序列化与反序列化 | Python | [297.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/xlhyfxlh.py) |
+| 300 | 最长递增子序列 | Python | [300.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zcdzzxl.py) |
 | 309 | 股票(含冷冻期) | Python | [309.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/gupiao5.py) |
-| 332 | 零钱兑换 | Python | [332.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/lqdh.py) |
+| 332 | 零钱兑换 | Python | [332.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/lqdh.py) |
 | 337 | 打家劫舍3 | Python | [337.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/其他题目/djjs3.py) |
-| 338 | 比特位计数 | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/btwjs.py) |
-| 394 | 字符串解码 | Python | [394.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/zfcjm.py) |
-| 399 | 除法求值 | Python | [399.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/cfqz.py) |
-| 406 | 根据身高重建队列 | Python | [406.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/gjsgcjdl.py) |
-| 416 | 分割等和子集 | Python | [416.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/fgdhzj.py) |
-| 437 | 路径总和3 | Python | [437.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/ljzh3.py) |
-| 438 | 找到字符串中的所有字母异位词 | Python | [438.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/zmywc2.py) |
-| 448 | 找到所有数组中消失的数字 | Python | [448.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/xsdsz.py) |
-| 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/hmjl.py) |
-| 538 | 把二叉搜索树转为累加树 | Python | [538.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/ljs.py) |
-| 543 | 二叉树的直径 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/ecszj.py) |
-| 560 | 和为k的子数组 | Python | [560.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/kzsz.py) |
-| 581 | 最短无序连续子数组 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/Hot-100/python/zdwxlxzsz.py) |
-| 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hbecs.py) |
-| 647 | 回文子串 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/hwzc.py) |
-| 739 | 每日温度 | Python | [739.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/leetcode/Hot-100/python/mrwd.py) |
+| 338 | 比特位计数 | Python | [338.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/btwjs.py) |
+| 394 | 字符串解码 | Python | [394.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zfcjm.py) |
+| 399 | 除法求值 | Python | [399.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/cfqz.py) |
+| 406 | 根据身高重建队列 | Python | [406.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/gjsgcjdl.py) |
+| 416 | 分割等和子集 | Python | [416.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/fgdhzj.py) |
+| 437 | 路径总和3 | Python | [437.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ljzh3.py) |
+| 438 | 找到字符串中的所有字母异位词 | Python | [438.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zmywc2.py) |
+| 448 | 找到所有数组中消失的数字 | Python | [448.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/xsdsz.py) |
+| 461 | 汉明距离 | Python | [461.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hmjl.py) |
+| 538 | 把二叉搜索树转为累加树 | Python | [538.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ljs.py) |
+| 543 | 二叉树的直径 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/ecszj.py) |
+| 560 | 和为k的子数组 | Python | [560.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/kzsz.py) |
+| 581 | 最短无序连续子数组 | Python | [543.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/Hot-100/python/zdwxlxzsz.py) |
+| 617 | 合并二叉树 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hbecs.py) |
+| 647 | 回文子串 | Python | [617.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/hwzc.py) |
+| 739 | 每日温度 | Python | [739.py](/Users/yearing1017/GitHub_repo/Algorithm_Note/blob/master/Leetcode/Hot-100/python/mrwd.py) |
 
 ### 随机刷题目
 
 |  id  |            题目            | 语言 |                           题解链接                           |
 | :--: | :------------------------: | :--: | :----------------------------------------------------------: |
-| 1 | 两数之和 | C++  | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 7 | 整数反转 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 9 | 回文数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 13 | 罗马数字转数字 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 14 | 最长公共前缀 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 20 | 有效的括号 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 21 | 合并两个有序链表 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 26 | 删除排序数组中的重复项 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 27 | 移除元素 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 35 | 搜索插入位置 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 41 | 缺失的第一个正数 | Python | [41.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/random/qsddygzs.py) |
+| 1 | 两数之和 | C++  | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 7 | 整数反转 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 9 | 回文数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 13 | 罗马数字转数字 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 14 | 最长公共前缀 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 20 | 有效的括号 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 21 | 合并两个有序链表 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 26 | 删除排序数组中的重复项 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 27 | 移除元素 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 35 | 搜索插入位置 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 41 | 缺失的第一个正数 | Python | [41.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/random/qsddygzs.py) |
 | 50 | Pow(x,n) | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9814-2.md) |
-| 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 53 | 最大子序和 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 38 | 报数 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 53 | 最大子序和 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
 | 54 | 顺时针打印矩阵 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9829.md) |
-| 58 | 最后一个单词的长度 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 66 | 加一 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 67 | 二进制求和 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 69 | x的平方根 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 70 | 爬楼梯 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 58 | 最后一个单词的长度 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 66 | 加一 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 67 | 二进制求和 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 69 | x的平方根 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 70 | 爬楼梯 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
 | 79 | 单词搜索 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9812.md) |
-| 83 |  删除排序链表中的重复元素  | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 88 | 合并两个有序数组 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 100 | 相同的树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 101 | 对称二叉树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 83 |  删除排序链表中的重复元素  | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 88 | 合并两个有序数组 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 100 | 相同的树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 101 | 对称二叉树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
 | 102 | 二叉树的层次遍历 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9832.md) |
 | 105 | 根据前序和中序重建二叉树 | Java、Python | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9807.md) |
-| 107 | 二叉树的层次遍历 II | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 108 | 将有序数组转换为二叉搜索树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
-| 110 | 平衡二叉树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode.md) |
+| 107 | 二叉树的层次遍历 II | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 108 | 将有序数组转换为二叉搜索树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
+| 110 | 平衡二叉树 | Java | [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode.md) |
 | 121 | 股票的最大利润 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9863.md) |
 | 136 | 只出现一次的数字 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-1.md) |
-| 141 | 判断链表中是否有环 | Python| [题解笔记](https://leetcode-cn.com/problems/linked-list-cycle/) |
+| 141 | 判断链表中是否有环 | Python| [题解笔记](https://Leetcode-cn.com/problems/linked-list-cycle/) |
 | 143 | 重排链表 | Python | [143.py](https://github.com/yearing1017/Algorithm_Note/blob/master/程序员代码面试指南-左程云/链表问题/headtail.py) |
 | 151 | 翻转字符串的单词 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9858.md) |
 | 155 | 最小栈 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9830.md) |
@@ -463,10 +463,10 @@
 | 260 |只出现一次的数字 III| Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-1.md) |
 | 264 | 丑数2 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9849.md) |
 | 343 | 整数拆分 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9814-1.md) |
-| 470 | 用Rand7()实现Rand10() | Python | [470.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/random/rand7to10.py) |
+| 470 | 用Rand7()实现Rand10() | Python | [470.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/random/rand7to10.py) |
 | 645 | 错误的集合 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9856-1.md) |
 | 946 | 验证栈序列 | Python| [题解笔记](https://github.com/yearing1017/Algorithm_Note/blob/master/%E5%89%91%E6%8C%87offer/%E9%9D%A2%E8%AF%95%E9%A2%9831.md) |
-| 994 | 腐烂的橘子 | Python | [994.py](https://github.com/yearing1017/Algorithm_Note/blob/master/leetcode/random/fldjz.py) |
+| 994 | 腐烂的橘子 | Python | [994.py](https://github.com/yearing1017/Algorithm_Note/blob/master/Leetcode/random/fldjz.py) |
 
 
 
@@ -504,5 +504,5 @@
   
 ### 刷题网站
 - 牛客
-- leetcode
+- Leetcode
 - codetop
